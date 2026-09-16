@@ -1,0 +1,2201 @@
+
+
+--- Page 1 ---
+
+Development of the Korean Benthic Macroinvertebrate Sediment Index 1 
+(KBSI) for assessing sediment-associated ecological condition in freshwater 2 
+ecosystems 3 
+Jeaha Songa, Chanyoung Jeonga, Ihn-Sil Kwakb, Dongsoo Konga* 4 
+ 5 
+aDepartment of Life Science, Kyonggi University, Suwon-si, Gyeonggi-do, 16227, Republic of 6 
+Korea 7 
+bDepartment of Ocean Integrated Science, Chonnam National University, Yeosu-si, Jeollanam-8 
+do, 59626, Republic of Korea 9 
+ 10 
+∗Corresponding author. Tel: +82-31-249-9649; Fax: +82-504-286-7457 11 
+E-mail address: Jeaha Song: papawogk@naver.com; Chanyoung Jeong: 12 
+heaveninjcy@kyonggi.ac.kr; Ihn -Sil Kwak: iskwak@jnu.ac.kr; Dongsoo Kong: dskong@ 13 
+kyonggi.ac.kr 14 
+  15 
+Revised manuscript (marked up)
+ Click here to access/download;Revised manuscript (marked
+up);ECOLIND-61476_Manuscript_With change marked.docx
+Click here to view linked References
+
+--- Page 2 ---
+
+Abstract 16 
+Freshwater sediments accumulate organic matter, nutrients, metals, and fine particles and can 17 
+influence benthic macroinvertebrate assemblages. However, biological tools for evaluating 18 
+sediment-associated ecological condition remain limited in Korean freshw ater systems. This 19 
+study developed the Korean Benthic Macroinvertebrate Sediment Index (KBSI) as a field -20 
+based biological indicator using data from 80 sites and 320 site-survey sample units. Sediment 21 
+variables, including porewater total ammonia nitrogen (T AN), acid-volatile sulfides (AVS), 22 
+total organic carbon (TOC), the Metals Tier II Index, and mud fraction, were summarized using 23 
+principal component analysis. PC1 represented an integrated sediment -condition gradient 24 
+associated with organic enrichment, red ucing conditions, relative sediment -bound metal 25 
+contamination, and fine-particle accumulation. PC1 scores from 309 sample units containing 26 
+selected indicator taxa were divided into nine class intervals using a Weibull cumulative 27 
+distribution function and Sturges’ rule. Taxon-specific tolerance values and indicator weights 28 
+were derived from occurrence distributions along this gradient and used to calculate KBSI. 29 
+KBSI showed significant negative relationships with TAN, AVS, TOC, the Metals Tier II 30 
+Index, mud fraction, and PC1, indicating that lower index values were associated with more 31 
+degraded sediment -associated field conditions. The relationship between observed and 32 
+calculated KBSI values supported internal agreement within the development dataset but did 33 
+not constitute independent validation. KBSI values were classified into five ecological 34 
+condition classes from A to E for practical interpretation. KBSI is intended for biological 35 
+assessment of depositional sediment habitats and should be interpreted together with sediment 36 
+physicochemical and habitat information rather than as an independent chemical sediment -37 
+quality standard or direct toxicological endpoint. 38 
+Keywords: Benthic macroinvertebrates; Biological assessment; Freshwater sediment; KBSI; 39 
+
+--- Page 3 ---
+
+Principal component analysis; Sediment-associated ecological condition 40 
+41 
+
+--- Page 4 ---
+
+1. Introduction 42 
+Sediment in rivers and lakes is a particulate matrix of gravel, sand, silt, clay, and 43 
+organic matter that stores watershed -derived pollutants over extended periods and exchanges 44 
+solutes with the water column as a dynamic reactive system (Chapman, 1990; Zhou et al., 2024). 45 
+Settling and resuspension, sorption and desorption, and redox -mediated transformations 46 
+continually modify sediment properties (El-Sharkawy et al., 2025; Hiki et al., 2023) . Where 47 
+fine fractions dominate, contaminant accumulation and bioavailability increase and can 48 
+restructure benthic macroinvertebrate assemblages (Relyea et al., 2012; Wharton et al., 2023). 49 
+Therefore, single -time measurements of water -column concentrations do not adequately 50 
+represent cumulative contamination or habitat alteration, underscoring the need for biological 51 
+indicators that reflect sediment-associated ecological conditions. 52 
+The Oligochaete Index of Sediment Bioindication (IOBS) uses oligochaete 53 
+assemblage composition to evaluate sediment -associated biological condition in relation to 54 
+sediment impairment (AFNOR, 2002; AFNOR, 2016), and the U.S. Equilibrium Partitioning 55 
+Sediment Benchmarks (ESB) quantify linkages between sediment chemistry and biological 56 
+effects (U.S.EPA, 2003). The Sediment Quality Triad (SQT) integr ates chemistry, toxicity 57 
+testing, and community data to diagnose ecological degradation in contaminated sediments 58 
+(Chapman, 1990). Stress-specific biotic indices have also been developed: the Fine Sediment 59 
+Biotic Index (FSBI) encodes sensitivities to fine particles (Relyea et al., 2012) , and the 60 
+Proportion of Sediment-sensitive Invertebrates (PSI) uses the share of sensitive taxa to evaluate 61 
+restoration outcomes (Extence et al., 2010). 62 
+In coastal and estuarine environments, the Benthic Response Index (BRI) and the 63 
+AZTI Marine Biotic Index (AMBI) apply weighted -tolerance principles and have informed 64 
+analogous approaches for fresh waters (Borja et al., 2000; Smith et al., 2001) . More recently, 65 
+
+--- Page 5 ---
+
+multivariate formulations—such as the Hellenic Lake Littoral Biotic Index (HeLLBI) and the 66 
+Cumulative Biotic Index (CBI) —have related community structure to pollution gradients 67 
+within explicit statistical frame works, while high -throughput metabarcoding is improving 68 
+congruence with morphology-based indices (Lobo et al., 2017; Mavromati et al., 2021; Sudarso 69 
+et al., 2026). 70 
+In Korea, nationally standardized tools for water -column conditions —such as the 71 
+Korean Benthic macroinvertebrate Index of Biotic Integrity (KB -IBI)—are established, but 72 
+sediment-focused indicators remain comparatively underdeveloped (Jun et al., 2012) . A 73 
+domestic prototype, the Benthic macroinvertebrate Sediment Index (BSI), estimated taxon 74 
+tolerance values and indicator weights from relative frequencies in fr eshwater sediments and 75 
+computed a weighted mean using a Sediment Quality Index that integrates total organic carbon 76 
+(TOC), ammonia (NH ₃–N), and heavy metals (Kim et al., 2019) . Although BSI showed 77 
+statistical associations with sediment impairment gradients, its generality was constrained by 78 
+limited sample size and taxonomic uncertainty within Chironomidae, indicating the need for a 79 
+tool calibrated with broader spatial coverage and refined taxonomy. 80 
+To address this gap, we developed the Korean Benthic Macroinvertebrate Sediment 81 
+Index (KBSI) as a field-based biological indicator of sediment-associated ecological condition 82 
+in Korean freshwaters. Specifically, this study aimed to: (1) assemble a nationwi de dataset of 83 
+co-located benthic macroinvertebrate assemblages and sediment physicochemical conditions 84 
+from major Korean river basins and representative waterbody types; (2) define an integrated 85 
+sediment environmental gradient using PCA of porewater total ammonia nitrogen, acid-volatile 86 
+sulfides, total organic carbon, heavy metals, and the mud fraction; (3) derive taxon -specific 87 
+tolerance values and indicator weights from macroinvertebrate occurrence patterns along the 88 
+PC1-based sediment gradient; and (4) f ormulate and examine KBSI as a community -level 89 
+
+--- Page 6 ---
+
+index by relating index values to individual sediment variables, the PC1 sediment gradient, and 90 
+observed–calculated index agreement. KBSI is therefore intended not as a stand -alone 91 
+chemical or toxicological measure of sediment quality, but as a biological indicator of benthic 92 
+assemblage responses to sediment-associated environmental conditions under field settings. 93 
+ 94 
+2. Materials and methods 95 
+2.1 Study area and sampling design 96 
+2.1.1 Site description  97 
+This study was conducted at 80 freshwater sediment monitoring sites distributed across 98 
+the major river basins of Korea (Fig. 1). The sites were selected to represent broad gradients in 99 
+sedimentary environments, waterbody type, and anthropogenic influence, including both lotic 100 
+and lentic systems. For descriptive and management -oriented interpretation, the sites were 101 
+categorized into five groups: general streams, urban streams, industrial streams, lakes, and 102 
+reservoirs. The stream categories were assigned according to t he dominant surrounding land-103 
+use setting and the original monitoring-site designation, rather than using uniform quantitative 104 
+catchment-scale land -use thresholds. Urban streams represented lotic sites located in 105 
+predominantly urbanized settings, whereas industrial streams represented sites associated with 106 
+industrial areas. General streams comprised the remaining lotic sites that were not classified as 107 
+urban or industrial streams. 108 
+These categories were used to describe broad differences in waterbody type, 109 
+surrounding land -use setting, and sediment depositional environment, rather than to define 110 
+strict reference or impairment classes. General streams were therefore not treated as reference 111 
+or best -available sites and could include streams influenced by agricul ture, forestry, flow 112 
+
+--- Page 7 ---
+
+regulation, impoundments, or other catchment and hydromorphological pressures. 113 
+Field surveys were conducted repeatedly between 2022 and 2024, producing a total of 114 
+320 site-survey sample units. For the derivation of taxon-specific tolerance values and indicator 115 
+weights, 309 sample units in which selected indicator taxa occurred were used. Sample units 116 
+without selected indicator taxa were excluded from the tolerance -value calculation because 117 
+they did not provide the taxon-occurrence information required to estimate biological responses 118 
+along the sediment environmental gradient. 119 
+The sampling design was developed to support a field-based biological assessment of 120 
+sediment-associated ecological condition. Accordingly, biological and sediment samples were 121 
+collected from comparable depositional habitats within each site, where fine sed iments and 122 
+associated organic or reduced materials could accumulate. The sampling framework was 123 
+therefore intended for depositional sediment habitats, not for coarse riffle or boulder-dominated 124 
+substrates. This design allowed the KBSI to characterize benthic macroinvertebrate assemblage 125 
+responses to sediment-associated environmental conditions under field settings. 126 
+ 127 
+2.1.2. Collection and Identification of Benthic Macroinvertebrates 128 
+Benthic macroinvertebrates were collected from depositional sediment habitat s using 129 
+a cylindrical core sampler with an internal diameter of 7.5 cm. At each site, five replicate cores 130 
+were taken to a depth of 20 cm where coring was feasible (Kim et al., 2018; Song et al., 2025). 131 
+The 20 cm sampling depth was adopted to capture not only organisms concentrated in the upper 132 
+sediment layer, but also burrowing taxa, particularly oligochaetes, that may occur in deeper 133 
+sediment layers. 134 
+In the field, sediment core contents were washed through a 0.20-mm sieve to minimize 135 
+
+--- Page 8 ---
+
+the loss of small -bodied sediment-dwelling organisms, particularly oligochaetes and 136 
+chironomid larvae. Retained materials were preserved in ethanol and transported to the 137 
+laboratory. The use of a 0.20 -mm sieve was selected because small -bodied taxa in fine 138 
+sediments can be underestimated when larger mesh sizes are used (Song et al., 2025). 139 
+In the laboratory, residual sediment was removed and organisms were sorted under a 140 
+stereomicroscope. Specimens were identified to the lowest practicable taxonomic level, 141 
+generally to species wher e diagnostic characters were available, using standard taxonomic 142 
+references (Cummins and Merritt, 1996; Kawai and Tanida, 2005; Peckarsky et al., 1990; Yoon, 143 
+1988). Chironomid larvae were identified based on diagnostic structures such as the head 144 
+capsule, mentum, mandible, and antennae (Kwak, 2015). Oligochaetes were identified using 145 
+external and reproductive m orphological characters, including chaetal and reproductive 146 
+structures (Park et al., 2016) . All identified specimens were preserved in  80% ethanol to 147 
+minimize morphological deformation.  148 
+Taxa that were sufficiently frequent and taxonomically reliable were retained as 149 
+candidate indicator taxa for KBSI development. This taxonomic screening was necessary 150 
+because the derivation of tolerance values and indicator weights requires reliable occurrence 151 
+information along the sediment environmental gradient. 152 
+ 153 
+2.1.3. Sediment Sampling and Physicochemical Analysis 154 
+Surface sediment samples for physicochemical analysis were collected concurrently 155 
+with the biological samples from the corresponding depositional habitats within each site using 156 
+a cylindrical core sampler with an internal diameter of 7.5 cm.  For sediment chemistry and 157 
+particle-size analysis, the upper 0–7 cm sediment layer was used because this layer represents 158 
+
+--- Page 9 ---
+
+the biologically active surface sediment where organic matter accumulation, redox gradients, 159 
+porewater chemistry, and contaminant binding are most pronounced. This analytical depth 160 
+differed from the macroinvertebrate sampling depth of 20 cm, which was used to include 161 
+deeper-burrowing taxa. 162 
+Each sediment sample was sealed in a 300-mL high-density polyethylene bottle, stored 163 
+at ≤4 °C, and transported to the laboratory. The target sediment variables were porewater total 164 
+ammonia nitrogen (T AN), acid -volatile sulfides (A VS), total organic carbon (TOC), heavy 165 
+metals, and particle -size composition. TAN was used as an indicator of nitrogenous organic 166 
+enrichment in sediment porewater, A VS represented reduced sediment conditions associated 167 
+with sulfide formation, and TOC represented organic matter accumulation. 168 
+TAN was quantified colorimetrically at 630 nm. TOC was measured using a CHNS 169 
+analyzer after removal of inorganic carbon. A VS was determined as Ag₂S precipitated under a 170 
+nitrogen stream, foll owed by filtration and gravimetric drying. For heavy metals, sediment 171 
+samples were digested with mixed acids and analyzed using ICP –AES or ICP –MS; Hg was 172 
+quantified using TDA–AAS. Relative sediment-bound metal contamination was summarized 173 
+using the Metals Tier II Index based on the Tier II sediment guideline values for Cu, Pb, Ni, 174 
+As, Hg, Zn, Cd, and Cr (NIER, 2022).  175 
+Metals Tier II Index =  
+∑ (
+𝐸𝐶𝑖
+𝑃𝐸𝐿𝐾𝑖
+)8
+𝑖=1
+8  (1) 176 
+Where ECᵢ is the measured concentration of metal i  and PELKᵢ is the corresponding 177 
+Tier II guideline value. Higher values indicate greater relative sediment -bound metal 178 
+contamination compared with the Tier II sediment guideline benchmarks. 179 
+Particle-size fractions were separated using 2 -mm and 75 -µm sieves into gravel (>2 180 
+mm), sand (0.075–2 mm), and silt–clay (<0.075 mm) fractions. In this study, the fine-particle 181 
+
+--- Page 10 ---
+
+variable used for KBSI development refers to the silt –clay fraction, hereafter termed the mud 182 
+fraction, and does not include sand.  The mud fractio n was treated as a physical depositional 183 
+variable rather than a chemical contaminant, because fine particles can co -vary with organic 184 
+matter accumulation, reduced conditions, and contaminant retention in depositional habitats.  185 
+Routine quality assurance and  quality control procedures followed the national sediment 186 
+monitoring guidelines (NIER, 2022). 187 
+ 188 
+2.2. Development and calculation of the Korean Benthic Macroinvertebrate Sediment Index 189 
+(KBSI) 190 
+2.2.1. PCA-derived sediment environmental gradient 191 
+To derive an integrated sediment environmental gradient for KBSI development, 192 
+principal component analysis (PCA) was performed using the sediment physicochemical 193 
+variables measured at each sample unit. PCA was used to reduce redundancy among correlated 194 
+environmental va riables and to summarize the dominant multivariate gradient in sediment 195 
+condition (Abdi and Williams, 2010; Jolliffe and Cadima, 2016) . The variables included 196 
+porewater total ammonia nitrogen (TAN), acid -volatile sulfides (A VS), total organic carbon 197 
+(TOC), the Metals Tier II Index, and the mud fraction . These variables were selected to 198 
+represent major sediment -associated conditions, including nitrogenous organic enrichment, 199 
+reduced sediment conditions, organic matter accumulation, relative sediment -bound metal 200 
+contamination, and fine-particle deposition. 201 
+Prior to PCA, variables with skewed distributions were transformed to reduce the 202 
+influence of extreme values. TAN, A VS, TOC, and the Metals Tier II Index were log -203 
+transformed, whereas the mud fraction, expressed as proportional data, was arcsine square-root 204 
+
+--- Page 11 ---
+
+transformed. All transformed variables were standardized to a mean of zero and a standard 205 
+deviation of one before analysis, and PCA was conducted on the standardized environmental 206 
+matrix (Legendre and Legendre, 2012; Quinn and Keough, 2002). 207 
+The first principal component score was used as the integrated sediment environmental 208 
+gradient for deriving taxon-specific tolerance values and indicator weights. PC1 was selected 209 
+because it represented the dominant axis  of variation in sediment conditions and provided a 210 
+continuous gradient along which macroinvertebrate occurrence patterns could be evaluated. In 211 
+this study, PC1 was not interpreted as a stand-alone chemical pollution index or an independent 212 
+measure of sediment toxicity. Instead, it was used as a multivariate sediment-condition gradient 213 
+reflecting field-based co-variation among sediment physicochemical variables. 214 
+The PC1 scores of sample units containing selected indicator taxa were used in the 215 
+subsequent derivation of biological indicator values. Among the 320 site-survey sample units, 216 
+309 sample units with selected indicator taxa were retained for this step, whereas sample units 217 
+without selected indicator taxa were excluded because they did not provide occu rrence 218 
+information required for estimating taxon responses along the sediment environmental gradient. 219 
+ 220 
+2.2.2. Classification of the PC1 gradient and occurrence distribution 221 
+To classify the PC1 -based sediment environmental gradient for deriving biological 222 
+indicator values, the distribution of PC1 scores was analyzed using sample units in which 223 
+selected indicator taxa occurred. Among the 320 site -survey sample units, 309 sample units 224 
+were retained for this step after excluding 11 sample units in which no sel ected indicator taxa 225 
+were recorded. 226 
+The distribution of PC1 scores for the 309 sample units was fitted using a Weibull 227 
+
+--- Page 12 ---
+
+cumulative distribution function, which was selected because of its flexibility in describing 228 
+skewed environmental-gradient distributions and deriving probability-based class boundaries 229 
+(Weibull, 1951). The Weibull cumulative distribution function was expressed as: 230 
+𝐹(𝑥) =  1 − exp [−(
+𝑥−𝜃
+𝜆 )𝑘] (2) 231 
+where 𝐹(𝑥)  is the cumulative probability at PC1 score 𝑥 , 𝜃  is the location 232 
+parameter, 𝜆 is the scale parameter, and 𝑘 is the shape parameter. 233 
+The number of PC1 class intervals was determined using Sturges ’ rule, resulting in 234 
+nine class intervals (Sturges, 1926): 235 
+𝐾 = 1 + log2(𝑛) (3) 236 
+where 𝐾 is the number of class intervals and 𝑛is the number of sample units. For the 237 
+309 sample units used in this step, Sturges’ rule produced approximately nine intervals. 238 
+Class boundaries were obtained from the inverse Weibull cumulative distribution 239 
+function so that each PC1 interval represented an equal probability range: 240 
+𝑥𝑝 =  𝜃 + 𝜆[− ln(1 − 𝑝)]1/𝑘 (4) 241 
+where 𝑥𝑝 is the PC1 score corresponding to cumulative probability 𝑝. Each interval 242 
+was assigned a representative class value, which was subsequently used to summarize the 243 
+occurrence distribution of each indicator taxon along the PC1 gradient. This procedure 244 
+provided a standardized basis for estimating taxon -specific toleran ce values and indicator 245 
+weights from field occurrence data. 246 
+In this framework, the PC1 classes were not treated as regulatory sediment -quality 247 
+standards. Rather, they were used as empirical intervals of the multivariate sediment-condition 248 
+gradient to quant ify biological occurrence patterns. This interpretation is important because 249 
+
+--- Page 13 ---
+
+PC1 includes both chemical variables and a physical depositional variable, the mud fraction, 250 
+which may reflect natural hydromorphological processes as well as anthropogenic sedime nt 251 
+accumulation. 252 
+ 253 
+2.2.3. Derivation of taxon-specific tolerance values and indicator weights 254 
+Taxon-specific tolerance values and indicator weights were derived from the 255 
+occurrence distribution of selected indicator taxa along the PC1-based sediment environmental 256 
+gradient. Only taxa with reliable taxonomic resolution and sufficient occurrence freque ncy 257 
+were retained as indicator taxa, because rare or taxonomically uncertain taxa may produce 258 
+unstable tolerance estimates. This screening was intended to ensure that KBSI was based on 259 
+taxa with interpretable field occurrence patterns along the sediment -condition gradient. This 260 
+occurrence-based approach follows the general logic of deriving biological indicator values 261 
+from taxon distributions along environmental gradients  (Kim et al., 2019; Kong and Kim, 262 
+2016). The final indicator set therefore represents a screened subset of taxa suitable for KBSI 263 
+calibration rather than a complete inventory of all taxa collected during the surveys. 264 
+For each indicator taxon, its occurrence frequency was calculated within each of the 265 
+nine PC1 class intervals. The occurrence frequency of taxon 𝑖 in class 𝑘 was expressed as: 266 
+𝑅𝐹𝑖𝑘 =  
+𝑛𝑖𝑘
+𝑁𝑘
+× 100 (5) 267 
+where 𝑅𝐹𝑖𝑘 is the relative occurrence frequency of taxon 𝑖 in PC1 class 𝑘, 𝑛𝑖𝑘 is 268 
+the number of sample units in class 𝑘 where taxon 𝑖 occurred, and 𝑁𝑘 is the total number 269 
+of sample units in class 𝑘. 270 
+The occurrence frequencies of each taxon across the nine PC1 classes were then 271 
+
+--- Page 14 ---
+
+normalized to obtain its occurrence valency: 272 
+𝑉𝑖𝑘 =  
+𝑅𝐹𝑖𝑘
+∑ 𝑅𝐹9
+𝑘=1 𝑖𝑘
+  (6) 273 
+where 𝑉𝑖𝑘  represents the proportional occurrence valency of taxon 𝑖  in class 𝑘 . 274 
+Taxon-specific tolerance values were calculated as the weighted average of the PC1 class 275 
+values using occurrence valencies as weights: 276 
+𝑡𝑖 =  ∑ 𝐶𝑘𝑉𝑖𝑘 9
+𝑘=1  (7) 277 
+where 𝑡𝑖 is the tolerance value of taxon 𝑖, and 𝐶𝑘 is the representative class value 278 
+assigned to PC1 class 𝑘 . Higher tolerance values indicate that a taxon occurred more 279 
+frequently under sediment conditions associated with higher PC1 -derived stress levels, 280 
+whereas lower values indicate occurrence concentrated under less degraded sediment 281 
+conditions. 282 
+Indicator weights were assigned according to the concentration of each taxon ’s 283 
+normalized occurrence valencies across the nine PC1 classes. Taxa whose occurrence valencies 284 
+were concentrated within a limited portion of the PC1 gradient were assigned higher indicator 285 
+weights, whereas taxa with occurrence valencies distributed broadly across multiple classes 286 
+were assigned lower weights. Thus, the indicator weight represents the specificity of a taxon’s 287 
+occurrence distribution along the sediment-condition gradient, rather than its tolerance position 288 
+or physiological sensitivity. 289 
+This distinction between tolerance value and indicator weight prevents taxa with 290 
+similar tolerance positions but different occurrence breadths from being treated as equivalent. 291 
+In the final indicator table, taxa with strongly concentrated occurrence distributions were 292 
+assigned higher indicator weights, whereas taxa occurring across broader portions of the PC1 293 
+gradient were assigned lower weights. 294 
+
+--- Page 15 ---
+
+ 295 
+2.2.4. Calculation and classification of the Korean Benthic Macroinvertebrate Sediment Index 296 
+(KBSI) 297 
+The Korean Benthic Macroinvertebrate Sediment Index (KBSI) was calculated as a 298 
+weighted community-level index using the taxon-specific tolerance value, frequency value, and 299 
+indicator weight of each indicator taxon. For each sample unit, taxa included in the final 300 
+indicator list were matched with their corresponding tolerance values and indicator weights, 301 
+and their frequency values were used to represent their relative contribution to the assemblage. 302 
+This weighted -index structure follows the general approach of combining taxon tolerance, 303 
+occurrence, and indicator strength in benthic macroinvertebrate bioassess ment (Kim et al., 304 
+2019). 305 
+The KBSI was calculated as: 306 
+𝐾𝐵𝑆𝐼 = (10 −
+∑ 𝑡𝑖ℎ𝑖𝑔𝑖
+𝑛
+𝑖=1
+∑ ℎ𝑖𝑔𝑖𝑛
+𝑖=1
+) × 10 (8) 307 
+where 𝑛 is the number of indicator taxa occurring in a sample unit, 𝑡𝑖 is the tolerance 308 
+value of taxon 𝑖, ℎ𝑖 is the frequency value of taxon 𝑖, and 𝑔𝑖 is the indicator weight of taxon 309 
+𝑖.  310 
+The weighted mean tolerance value was subtracted from 10 so that higher KBSI values 311 
+indicate better sediment -associated ecological condition, whereas lower values indicate 312 
+assemblages dominated by taxa tolerant of degraded sediment conditions. 313 
+KBSI values were scaled from 0 to 100 and classified into five ecological condition 314 
+classes. For practical interpretation, KBSI values were classified into five assessment classes 315 
+following the KBSI assessment framework developed in this study: A, high, 70–100; B, good, 316 
+
+--- Page 16 ---
+
+60–<70; C, moderate, 50–<60; D, poor, 40–<50; and E, bad, 0–<40. 317 
+These classes provide interpretive categories for biological assessment of sediment -318 
+associated ecological condition. They should not be interpreted as independent chemical 319 
+sediment-quality standards, regulatory criteria, or toxicological thresholds. Rather, they 320 
+summarize KBSI values within the assessment framework developed for this study. 321 
+ 322 
+3. Results and discussion 323 
+3.1. PCA-derived sediment environmental gradient 324 
+Principal component analysis summarized the covariance structure of the five 325 
+sediment physicochemical variables used to characterize sediment-associated field conditions: 326 
+porewater total ammonia nitrogen (TAN), acid -volatile sulfides (A VS), total organic carbon 327 
+(TOC), Metals Tier II Index, and mud fraction. The first three PCA axes explained 86.0% of 328 
+the total variance, with PC1 accounting for 58.0%, PC2 for 17.2%, and PC3 for 10.8% (Table 329 
+1; Fig. 2). PC1 was the dominant axis because all five sediment vari ables showed clear 330 
+associations with this axis. The loadings on PC1 were 0.66 for ln(TAN), 0.69 for ln(A VS), 0.86 331 
+for ln(TOC), 0.82 for ln(Metals Tier II Index), and 0.76 for ln(mud fraction).  Thus, PC1 332 
+represented a composite sediment environmental gradient along which nitrogenous enrichment, 333 
+reducing sediment conditions, organic matter accumulation, relative sediment -bound metal 334 
+contamination, and fine-particle deposition co-varied. 335 
+Organic matter accumulation is ecologically relevant because it can incre ase oxygen 336 
+demand in surface sediments and promote conditions unfavorable to oxygen-sensitive benthic 337 
+fauna (Rosenberg et al., 2001). A VS reflects reduced sediment conditions, and sulfide-rich or 338 
+strongly reduced sediments can  modify metal binding, porewater chemistry, and exposure 339 
+
+--- Page 17 ---
+
+conditions for sediment-dwelling organisms (Simpson et al., 2013). TAN was interpreted as a 340 
+porewater indicator of nitrogenous organic enrichment rather than as a stand -alone toxicant 341 
+gradient, because ammonia effects in sediments depend on pH, redox condition, and 342 
+porewater–overlying water exchange. The Metals Tier II Index summarized the relative degree 343 
+of sediment -bound metal contamination, but its ecological interpretation should consider 344 
+bioavailability and site -specific geochemical conditions rather than total concentration alon e 345 
+(Simpson et al., 2013). Therefore, the strong contribution of TOC, A VS, TAN, and the Metals 346 
+Tier II Index indicates that PC1 captured a biogeochemical gradient associated with organic 347 
+enrichment, reduced sediment conditions, and relative sediment-bound metal contamination. 348 
+Mud fraction also contributed strongly to PC1, but its interpretation differs from that 349 
+of chemical contaminants. Fine particles can reduce interstitial flow, alter oxygen exchange, 350 
+and modify benthic habitat structure in lotic environments (Wood and Armitage, 1997). Fine-351 
+grained sediment can also affect macroinvertebrate assemblages by filling substrate interstices 352 
+and reducing the availability of coarse-substrate microhabitats used by rheophilic or sediment-353 
+sensitive taxa (Bylak and Kukuła, 2022). In addition, fine sediments can enhance the retention 354 
+of organic matter and particle -reactive contaminants because of their large surface area and 355 
+depositional stability (Wharton et al., 2023) . Howeve r, mud accumulation may arise from 356 
+natural hydromorphological and depositional processes as well as from anthropogenic changes 357 
+in flow regulation, land use, and sediment supply (Wharton et al., 2023; Wood and Armitage, 358 
+1997). Accordingly, mud fraction was treated as a physical depositional variable rather than as 359 
+a chemical contaminant. 360 
+For these reasons, PC1 was interpreted as a field -based multivariate sediment -361 
+condition gradient, not as a stand -alone sediment toxicity index or a regulatory sediment -362 
+quality standard. Sediment chemistry and benthic community composition can provide 363 
+
+--- Page 18 ---
+
+complementary lines of evidence for sediment -associated ecological assessment, but neither 364 
+line of evidence alone fully resolves causal mechanisms under field conditions (Long and 365 
+Chapman, 1985). The sediment quality triad framework similarly emphasizes that sediment 366 
+chemistry, toxicity, and benthic community responses should be interpreted together rather than 367 
+treated as interchangeable measures (Chapman, 1990). In the present study, KBSI was derived 368 
+from macroinvertebrate occurrence patterns along the PC1 gradient; therefore, it should be 369 
+interpreted as a biological indicator of sediment -associated ecological c ondition under field 370 
+settings, not as an independent chemical or toxicological assessment of sediment quality. 371 
+ 372 
+3.2. Classification of PC1 scores and derivation of class values 373 
+Among the 320 site-survey sample units, 309 sample units contained selected indicator 374 
+taxa and were therefore used to classify the PC1 sediment -condition gradient. The remaining 375 
+11 sample units were excluded from this step because they did not contain selected indicator 376 
+taxa and therefore provided no taxon -occurrence information for deriving tolerance values or 377 
+indicator weights. The PC1 scores of the 309 retained sample units were used to describe the 378 
+empirical distribution of sediment -associated field conditions represented by the indicator -379 
+taxon dataset. 380 
+The distribution of PC1 scores was fitted using a Weibull cumulative distribution 381 
+function (Fig. 3). The Weibull model was used to describe the probability distribution of PC1 382 
+scores and to derive class boundaries along the continuous sediment -condition gradient. 383 
+Because the objective was to construct empirical intervals for biological indicator derivation 384 
+rather than to define regulatory sediment -quality thresholds, the distribution was divided into 385 
+equal cumulative-probability intervals. Sturges’ rule produced nine class intervals for the 309 386 
+sample units, and the inverse Weibull cumulative distribution function was used to estimate the 387 
+
+--- Page 19 ---
+
+PC1 boundary and representative class value for each interval (Table 2). 388 
+The resulting PC1 classes covered the observed sediment-condition gradient from low 389 
+PC1 scores to high PC1 scores. Under the sign convention used in this study, higher PC1 scores 390 
+represented stronger sediment -associated environmental stress, including grea ter organic 391 
+enrichment, reducing conditions, relative sediment -bound metal contamination, and mud 392 
+accumulation. The representative class values therefore provided a standardized numerical 393 
+basis for estimating taxon-specific occurrence positions along the sediment-condition gradient. 394 
+Taxa occurring mainly in lower PC1 classes were assigned lower tolerance values, whereas 395 
+taxa occurring mainly in higher PC1 classes were assigned higher tolerance values. 396 
+Importantly, these PC1 classes should not be interpreted as sediment-quality standards 397 
+or toxicity thresholds. They are empirical intervals of a field -based multivariate sediment -398 
+condition gradient derived from the distribution of PC1 scores in sample units containing 399 
+indicator taxa. This distinction is necessa ry because PC1 integrates chemical variables with 400 
+mud fraction, a physical depositional variable that can reflect both natural hydromorphological 401 
+processes and anthropogenic sediment accumulation. The class values were therefore used only 402 
+as an internal scaling framework for deriving KBSI tolerance values and indicator weights, not 403 
+as independent criteria for classifying sediment contamination or toxicity. 404 
+ 405 
+3.3. Taxon-specific tolerance values and indicator weights 406 
+Taxon-specific tolerance values and indica tor weights were derived from the 407 
+occurrence distributions of selected indicator taxa across the nine PC1 class intervals (Table 3). 408 
+In total, 137 indicator taxa were retained in the final indicator table. This approach follows the 409 
+logic of field-based macroinvertebrate bioassessment, in which taxon scores are inferred from 410 
+
+--- Page 20 ---
+
+observed distributions along environmental gradients rather than from a single chemical 411 
+variable or laboratory endpoint (Hering et al., 2004; Rosenberg and Resh, 1993). It also builds 412 
+on the saprobic valency concept and its later adaptations, where taxa are characterized by both 413 
+their position along an environmental gradient and their strength of indication within that 414 
+gradient (Sládeček, 1967; Yoon et al., 1992; Zelinka and Marvan, 1961). 415 
+Although KBSI shares a weighted -indicator structure with the Korean BMI  (Kong et 416 
+al., 2018) and conventional saprobic indices, the indices differ in their target environmental  417 
+gradients and application domains. BMI is used primarily to assess the general ecological 418 
+condition of Korean streams, whereas KBSI was derived from depositional sediment habitats 419 
+in both lotic and lentic systems. Similarly, conventional saprobic values p rimarily represent 420 
+taxon distributions along gradients of organic pollution and oxygen conditions, whereas KBSI 421 
+tolerance values were independently derived along a multivariate sediment-condition gradient 422 
+integrating TAN, A VS, TOC, relative metal contamination, and mud fraction. Correspondence 423 
+among taxon classifications may therefore reflect shared responses to organic enrichment and 424 
+oxygen depletion, but KBSI tolerance values should not be interpreted as conventional saprobic 425 
+values. 426 
+Tolerance values represent the weighted average position of each taxon along the PC1 427 
+sediment-condition gradient. Lower values indicate taxa whose occurrences were concentrated 428 
+in lower PC1 classes, whereas higher values indicate taxa whose occurrences were 429 
+concentrated in higher PC1 classes. Under the sign convention used in this study, higher PC1 430 
+scores represented stronger sediment -associated environmental stress, including greater 431 
+organic enrichment, reducing conditions, metal contamination, and mud accumulation. 432 
+Accordingly, tolerance values should be interpreted as field-derived occurrence positions along 433 
+the measured PC1 gradient, not as fixed physiological toxicity thresholds. 434 
+
+--- Page 21 ---
+
+The resulting values showed broad taxon -level variation. Taxa with low tolerance 435 
+values included Rhyacodrilus coccineus (t = 0.0), Chaetogaster limnaei (t = 0.0), Limnodrilus 436 
+claparedeianus (t = 0.7), and Chaetogaster diaphanus  (t = 1.9), whereas taxa with  higher 437 
+tolerance values included Limnodrilus udekemianus (t = 7.3) and Branchiodrilus hortensis (t = 438 
+7.1). These differences are consistent with the general observation that benthic 439 
+macroinvertebrate assemblages vary along gradients of organic enrichment, oxygen depletion, 440 
+sediment condition, and habitat disturbance (Townsend et al., 2008; V on Bertrab et al., 2013). 441 
+However, the values should not be over -interpreted as universal taxon traits because field 442 
+distributions can also reflect habitat structure, flow regime, sampling depth, and regional 443 
+species pools. 444 
+Indicator weights describe a different property from tolerance values. A high indicator 445 
+weight means that a taxon ’s occurrences were concentrated within a restricted portion of the 446 
+PC1 gradient, whereas a low weight indicates a broader distribution across classes. Thus, 447 
+indicator weight represents occurrence specificity r ather than sensitivity or tolerance itself. 448 
+This distinction follows the weighted -indicator logic of saprobic and Korean benthic 449 
+macroinvertebrate indices, where community-level scores combine taxon position, abundance 450 
+or occurrence, and indicator strength  (Zelinka & Marvan, 1961; Yoon et al., 1992; Kong & 451 
+Kim, 2016; Kim et al., 2019). 452 
+This distinction also resolves the issue of taxa with tolerance values of 0.0. In the final 453 
+table, Rhyacodrilus coccineus  and Chaetogaster limnaei  had tolerance values of 0.0  and 454 
+indicator weights of 5, because their occurrences were concentrated in the lowest PC1 class. 455 
+Their high indicator weights therefore reflect narrow occurrence specificity, not an automatic 456 
+assignment based on sensitivity. Conversely, taxa with intermed iate or high tolerance values 457 
+may receive low weights if they are broadly distributed across PC1 classes. This treatment 458 
+
+--- Page 22 ---
+
+prevents tolerance value and indicator weight from being conflated into a single sensitivity 459 
+metric. 460 
+Overall, Table 3 should be interpreted as a field-derived indicator table for sediment -461 
+associated ecological condition in the sampled Korean freshwater systems. The table 462 
+summarizes how selected taxa were distributed along the measured PC1 gradient, but it does 463 
+not imply that KBSI fully is olates sediment effects from water -column conditions or habitat 464 
+context. This cautious interpretation is consistent with macroinvertebrate bioassessment 465 
+frameworks, which recognize that benthic taxa integrate multiple stressors and habitat -scale 466 
+processes rather than responding to a single environmental factor alone (Birk et al., 2012; 467 
+Hering et al., 2004; Rosenberg and Resh, 1993) . The use of taxon -specific tolerance values 468 
+requires standardized identification at the lowest practicable taxonomic level and may limit 469 
+routine application where specialist taxonomic expertise is unavailable. Future operational 470 
+evaluation should determine whether selected taxa can be aggregated to hig her taxonomic 471 
+levels without materially reducing the discriminatory performance of KBSI. 472 
+ 473 
+3.4. Relationship between KBSI and sediment environmental variables 474 
+Using site -level annual mean values for the 80 monitoring sites, KBSI showed 475 
+consistent negative relationships with the five sediment environmental variables used to define 476 
+the PC1 sediment-condition gradient (Fig. 4). KBSI decreased with increasing porewater TAN, 477 
+A VS, TOC, Metals Tier II Index, and mud fraction, and all relationships were statistical ly 478 
+significant. At the site level, the correlation coefficients were −0.57 for TAN, −0.60 for A VS, 479 
+−0.65 for TOC, −0.64 for the Metals Tier II Index, and −0.51 for mud fraction.  Thus, the 480 
+strongest associations were observed for TOC and Metals Tier II Index, followed by A VS, TAN, 481 
+and mud fraction. These results indicate that lower KBSI values were associated with 482 
+
+--- Page 23 ---
+
+depositional sediments characterized by greater organic matter content, greater relative 483 
+sediment-bound metal contamination, stronger reducing conditions, higher porewater nitrogen 484 
+enrichment, and greater fine-particle accumulation. 485 
+The negative relationship between KBSI and TOC suggests that the index responded 486 
+to organic matter accumulation in surface sediments. Organic matter enrichment can incre ase 487 
+microbial oxygen demand and promote low-oxygen or reducing conditions in benthic habitats, 488 
+thereby affecting sediment-dwelling fauna and benthic community composition (Eggleton and 489 
+Thomas, 2004; Rosenberg et al., 2001) . TOC can also interact with redox condition and 490 
+contaminant binding, so its relationship with KBSI should be interpreted as part of a broader 491 
+sediment biogeochemical gradient rather than as an isolated single-stressor effect (Zhang et al., 492 
+2014). 493 
+KBSI also decreased with increasing TAN. In this study, TAN was interpreted as a 494 
+porewater indicator of nitrogenous organic enrichment rather than as a stand -alone toxicant 495 
+gradient. Ammonia and other inorganic nitrogen forms can affect aquatic organisms, but their 496 
+effects depend on chemical speciation, pH, temperature, oxygen condition, and exchange 497 
+between porewater and overlying water (Camargo and Alonso, 2006; U.S. EPA, 2013) . 498 
+Therefore, the KBSI –TAN relationship is best interpreted as a field -level association with 499 
+nitrogenous enrichment and porewater condition within depositional sediments. 500 
+The negative relationship bet ween KBSI and A VS indicates that lower index values 501 
+were associated with more reduced sediment conditions. A VS is important in sediment 502 
+assessment because sulfide-rich conditions reflect reducing environments and can modify both 503 
+porewater chemistry and met al partitioning (Di Toro et al., 1992) . However, A VS should not 504 
+be interpreted simply as a direct stressor with a single directional effect, because sulfides can 505 
+bind divalent metals and reduce their bioavailabi lity under some geochemical conditions (Di 506 
+
+--- Page 24 ---
+
+Toro et al., 1992; Zhang et al., 2014) . Accordingly, the KBSI –A VS relationship should be 507 
+interpreted as a biological response associated with reduced, organic -rich depositional 508 
+conditions rather than as direct evidence of sulfide toxicity. 509 
+KBSI decreased with increasing Metals Tier II Index, suggesting that assemblages with 510 
+lower KBSI values tended to occur where relative sediment -bound metal contamination was 511 
+higher. Sediments can act as both sinks and secondary sources of metals, and metal mobility 512 
+and bioavailability are influenced by particle size, organic matter, Fe –Mn oxides, A VS, pH, 513 
+redox condition, and biological activity (Eggleton and Thomas, 2004; Förstner and Wittmann, 514 
+1981). Therefore, the relationship between KBSI and the Metals Tier II Index should be 515 
+interpreted as a field -level association between benthic assemblage condition and relative 516 
+sediment-bound metal contamination, not as a direct measurement of metal toxicity.  This 517 
+distinction is important because total or guideline -normalized metal concentrations do not 518 
+necessarily represent the fraction that is bioavailable to benthic organisms (Di Toro et al., 1992; 519 
+Zhang et al., 2014). 520 
+KBSI also showed a statistically significant but moderate negative relationship with 521 
+mud fraction, indicating a general tendency for lower KBSI values to occur in  depositional 522 
+sediments with a greater silt–clay proportion. However, mud fraction alone accounted for only 523 
+a limited proportion of the variation in KBSI and should not be interpreted as the dominant 524 
+determinant of index values. Fine sediments can alter be nthic habitats by reducing interstitial 525 
+flow, filling substrate spaces, changing oxygen exchange, and increasing the retention of 526 
+organic matter and particle -reactive contaminants (V on Bertrab et al., 2013; Wood and 527 
+Armitage, 1997). Fine-sediment deposition can also influence macroinvertebrate assemblage 528 
+composition and interact with other stressors such as organic enrichment and water -quality 529 
+degradation (Doretto et al., 2018; Extence et al., 2010) . Nevertheless, mud fraction is not a 530 
+
+--- Page 25 ---
+
+chemical contaminant. It can reflect natural depositional and hydromorphological processes as 531 
+well as anthropogenic changes in flow regulation, sediment supply, land use,  or channel 532 
+modification (Wharton et al., 2023; Wood and Armitage, 1997). 533 
+Overall, these relationships support the internal consistency of KBSI with the sediment 534 
+variables used to define the PC1 gradient. They indicate that KBSI varied consistently along 535 
+field gradients involving organic enrichment, reducing conditions, relative sediment -bound 536 
+metal contamination, and fine -particle deposition. However, these associations do not 537 
+demonstrate that KBSI isolates sediment effects from co-varying water-column conditions or 538 
+habitat characteristics (Birk et al., 2012; Feld and Hering, 2007; Townsend et al., 2008). 539 
+ 540 
+3.5. Relationship between PC1 score and KBSI 541 
+Based on site -level annual mean values for the 80 monitoring sites, KBSI showed a 542 
+strong negative relationship with the PCA -derived PC1 sediment-condition gradient (Fig. 5).  543 
+Because PC1 was derived from mutually correlated sediment variables, including TAN, A VS, 544 
+TOC, Metals Tier II Index, and mud fraction, it summarized the dominant field gradient 545 
+represented by the measured sediment varia bles. Ordination-based approaches are commonly 546 
+used in aquatic ecology to extract synthetic environmental gradients and relate them to 547 
+biological assemblage patterns (ter Braak and Verdonschot, 1995). Similar gradient-based logic 548 
+has also been applied in macroinvertebrate index development, where PCA of abiotic variables 549 
+was used to define a disturbance gradient against which biological condition was evaluated 550 
+(Blocksom and Johnson, 2009). 551 
+KBSI decreased as PC1 scores increased. Under the sign convention used in this study, 552 
+PC1 scores represented stronger sediment -associated environmental stress, including 553 
+
+--- Page 26 ---
+
+nitrogenous enrichment, reducing conditions, organic matter accumulation, relative sediment-554 
+bound metal contamination, and mud deposition.  The negative PC1 –KBSI relationship 555 
+therefore indicates that the final community-level index retained the intended directionality of 556 
+the PC1 gradient after taxon -specific tolerance values and indicator weights were integrated 557 
+across assemblages. 558 
+The PC1–KBSI relationship remained significant after excluding four sites outside the 559 
+95% prediction interval in the site-level annual mean analysis. This trimming step was not used 560 
+to redefine KBSI or to exclude sites from the index framework. Rather, it was used to examine 561 
+whether the PC1 –KBSI relationship was driven by a small number of extreme observations. 562 
+After trimming, the remaining 76 sites still showed a clear negative relationship, indicating that 563 
+the association between KBSI and PC1 was not dependent only on outliers. This interpretation 564 
+is consistent with ecological assessment studies that emphasize the need to consider metric 565 
+uncertainty a nd site -specific variability when detecting biological responses along 566 
+environmental gradients (Johnson et al., 2006). 567 
+The PC1 –KBSI relationship complements the relationships between KBSI and 568 
+individual sediment variables described in Section 3.4. Individual variables describe specific 569 
+sediment attributes, whereas PC1 summarizes their combined field covariation. PC A-based 570 
+composite approaches can reduce correlated environmental variables into interpretable 571 
+summary gradients; however, such gradients should be interpreted as integrated field 572 
+conditions rather than as direct causal mechanisms  (Praus, 2019). Therefore, the PC1–KBSI 573 
+relationship supports the internal coherence of KBSI with the sediment-condition gradient used 574 
+for its development.  However, this result should not be interpreted as external validation of 575 
+KBSI. Because PC1 was also used to derive the taxon -specific tolerance values and indicator 576 
+weights, the relationship between PC1 and KBSI represents an internal consistency check 577 
+
+--- Page 27 ---
+
+rather than an independent validation test.  578 
+ 579 
+3.6. Observed–calculated KBSI and internal agreement 580 
+Observed KBSI values showed a posit ive relationship with calculated KBSI values 581 
+(Fig. 6). After excluding four sites that fell outside the 95% prediction interval in the preceding 582 
+site-level PC1 –KBSI analysis, the remaining 76 sites retained a clear observed –calculated 583 
+relationship. This result indicates that the fitted sediment-variable model reproduced the overall 584 
+variation in site-level KBSI within the development dataset. 585 
+Because the calculated values were derived within the same sediment -variable and 586 
+index-development framework, the obs erved–calculated relationship should be interpreted as 587 
+an internal agreement check rather than as evidence of predictive performance or external 588 
+validation. Nevertheless, the agreement supports the internal coherence of KBSI as a biological 589 
+indicator associated with the field-derived sediment-condition gradient. KBSI should therefore 590 
+be interpreted together with sediment chemistry and habitat information, rather than as a stand-591 
+alone measure of sediment contamination or toxicity. 592 
+ 593 
+3.7. Limitations and future validation 594 
+Water-column variables, including dissolved oxygen, conductivity, nutrients, and 595 
+temperature, were not measured consistently and concurrently across all site -survey sample 596 
+units. Standardized hydromorphological and habitat variables were also unavailable for the 597 
+complete dataset. Consequently, the independent and shared contributions of sediment 598 
+condition, water -column quality, and habitat setting could not be separated statistically. 599 
+Because macroinvertebrate assemblages may respond non -specifically to interacting 600 
+
+--- Page 28 ---
+
+environmental stressors, the observed biological response along PC1 does not by itself isolate 601 
+causal sediment effects from co-varying water-column or habitat conditions (Heß et al., 2024). 602 
+KBSI should therefore be interpreted as an integrated biological response associated with 603 
+sediment conditions under field settings rather than as a sediment-specific measure of toxicity. 604 
+Future studies should incorporate co -located water -column and hydromorphological 605 
+measurements to quantify their relative contributions. 606 
+The sampling framework was specifically designed for depositional sediment habitats 607 
+in which fine particles and associated organic or reduced materials accumulate. Accordingly, 608 
+the applicability of KBSI to coarse riffle, gravel -, or boulder -dominated habitats was not 609 
+evaluated and should not be assumed. Biolo gical samples were collected to a depth of 20 cm 610 
+to include deeper-burrowing taxa, whereas sediment physicochemical variables were measured 611 
+in the upper 0–7 cm layer representing the biologically active surface sediment. Further 612 
+validation is needed to determine whether KBSI responses remain consistent across contrasting 613 
+depositional environments and waterbody types. 614 
+The same monitoring dataset was used to derive taxon -specific tolerance values and 615 
+indicator weights and to evaluate the relationships of KBSI  with sediment variables and the 616 
+PC1 gradient. Consequently, the reported relationships represent internal consistency within 617 
+the index-development dataset rather than independent validation, and their apparent strength 618 
+may be optimistic. No geographically  or temporally independent dataset collected using the 619 
+same sampling and taxonomic protocols was available for external validation. Seasonal effects 620 
+were also not evaluated separately because the repeated surveys were not designed as a 621 
+balanced seasonal ex periment. Independent validation using additional sites, temporally 622 
+separate surveys, and seasonally balanced monitoring data is therefore needed to evaluate the 623 
+predictive accuracy, temporal stability, and transferability of KBSI. 624 
+
+--- Page 29 ---
+
+Overall, KBSI provides a  field-based biological indicator of sediment -associated 625 
+ecological condition in Korean freshwater systems by integrating taxon -specific tolerance 626 
+values, indicator weights, and community composition along a field-derived sediment gradient. 627 
+Nevertheless, it should be interpreted together with sediment chemistry and habitat information 628 
+rather than as a stand-alone measure of sediment contamination or toxicity. 629 
+ 630 
+4. Conclusions 631 
+This study developed the Korean Benthic Macroinvertebrate Sediment Index (KBSI) 632 
+as a field -based biological indicator of sediment -associated ecological condition in Korean 633 
+freshwater systems. The index was derived from a PCA -based sediment gradient integrating 634 
+porewater TAN, A VS, TOC, the Metals Tier II Index, and mud fraction. Occurrence patterns of 635 
+137 indicator taxa across nine PC1 class intervals were used to derive taxon-specific tolerance 636 
+values and indicator weights. 637 
+KBSI decreased consistently with increasing TAN, A VS, TOC, relative sediment -638 
+bound metal contamination, mud fraction, and the integrated PC1 gradient. These relationships 639 
+demonstrate that KBSI retained the intended biological directionality of the sediment-condition 640 
+gradient within the development dataset. The observed –calculated relationship further 641 
+supported internal agreement of the index formulation, although it did not constitute 642 
+independent validation. 643 
+KBSI is intended for biological assessment of depositional sediment habitats and 644 
+should not be interpreted as an independent chemical sediment -quality standard or di rect 645 
+toxicological endpoint. Its results should be considered together with sediment 646 
+physicochemical and habitat information. Independent validation across additional sites, 647 
+
+--- Page 30 ---
+
+survey periods, and contrasting depositional environments is required to establish  its broader 648 
+robustness and transferability. 649 
+  650 
+
+--- Page 31 ---
+
+CRediT authorship contribution statement 651 
+Jeaha Song:  Conceptualization, Methodology, Visualization, Data validation and curation, 652 
+formal analysis, Writing-original draft preparation, Writing -review and editing. Chanyoung 653 
+Jeong: Conceptualization, Methodology, Writing-review and editing. Ihn-Sil Kwak: Writing-654 
+review and editing.  Dongsoo Kong:  Conceptualization, Methodology, Writing -review and 655 
+editing, Project administration.   656 
+ 657 
+Acknowledgments 658 
+This research was supported by the Korea Environment Industry and Technology Institute 659 
+(KEITI) through the Aquatic Ecosystem Conserva tion Research Program funded by the 660 
+Ministry of Environment (MOE), Republic of Korea (grant No. 2021003050001 and 661 
+2022003050006). Additional support was provided by the Kyonggi University Graduate 662 
+Research Assistantship (2026). 663 
+ 664 
+  665 
+
+--- Page 32 ---
+
+References 666 
+Abdi, H., Williams, L.J., 2010. Principal component analysis. WIREs Computational Statistics, 2(4): 433–459. 667 
+https://doi.org/10.1002/wics.101 668 
+AFNOR, 2002. NF T90 -390: Qualité de l ’eau—Détermination de l ’indice oligochète de bioindication des 669 
+sédiments (IOBS). Association Française de Normalisation, Saint-Denis, France.  670 
+AFNOR, 2016. NF T90 -393: Qualité de l ’eau—Détermination de l ’indice oligochète de bioindication des 671 
+sédiments (IOBS) — Mise à jour. Association Française de Normalisation, Saint-Denis, France.  672 
+Birk, S., Bonne, W., Borja, A., Brucet, S., Courrat, A., Poikane, S., Solimini, A., van de Bund, W., Zampoukas, 673 
+N., Hering, D., 2012. Three hundred ways to assess Europe's surface waters: An almost complete overview 674 
+of biological methods to implement the W ater Framework Directive. Ecological Indicators, 18: 31–41. 675 
+https://doi.org/10.1016/j.ecolind.2011.10.009 676 
+Blocksom, K.A., Johnson, B.R., 2009. Development of a regional macroinvertebrate index f or large river 677 
+bioassessment. Ecological Indicators, 9(2): 313–328. https://doi.org/10.1016/j.ecolind.2008.05.005 678 
+Borja, A., Franco, J., Pérez, V ., 2000. A Marine Biotic Index to Establish the Ecological Quality of Soft -Bottom 679 
+Benthos Within European Estuarine and Coastal Environments. Marine Pollution Bulletin, 40(12): 1100–680 
+1114. https://doi.org/10.1016/S0025-326X(00)00061-8 681 
+Bylak, A., Kukuła, K., 2022. Impact of fine-grained sediment on mountain stream macroinvertebrate communities: 682 
+Forestry activities and beaver -induced sediment management. Science of The Total Environment, 832: 683 
+155079. https://doi.org/10.1016/j.scitotenv.2022.155079 684 
+Camargo, J.A., Alonso, Á., 2006. Ecological and toxicological effects of inorganic nitrogen pollution in aquatic 685 
+ecosystems: A global assessment. Environment International, 32(6): 831–849. 686 
+https://doi.org/10.1016/j.envint.2006.05.002 687 
+Chapman, P.M., 1990. The sediment quality triad approach to determining pollution-induced degradation. Science 688 
+of The Total Environment, 97-98: 815–825. https://doi.org/10.1016/0048-9697(90)90277-2 689 
+Cummins, K., Merritt, R., 1996. An Introduction to The Aquatic Insects of North America. The Journal of Animal 690 
+Ecology, 50. https://doi.org/10.2307/1467288 691 
+Di Toro, D.M., Mahony, J.D., Hansen, D.J., Scott, K.J., Carlson, A.R., Ankley, G.T., 1992. Acid volatile sulfide 692 
+predicts the acute toxicity of cadmium and nickel in sediments. Environmental Science & Technology, 693 
+26(1): 96–101. https://doi.org/10.1021/es00025a009 694 
+Doretto, A., Piano, E., Bona, F., Fenoglio, S., 2018. How to assess the impact of fine sediments on the 695 
+macroinvertebrate communities of alpi ne streams? A selection of the best metrics. Ecological Indicators, 696 
+84: 60–69. https://doi.org/10.1016/j.ecolind.2017.08.041 697 
+Eggleton, J., Thomas, K.V ., 2004. A review of factors affecting the release and bioavailability of contaminants 698 
+during sediment disturbance events. Environment International, 30(7): 973–980. 699 
+https://doi.org/10.1016/j.envint.2004.03.001 700 
+El-Sharkawy, M., Alotaibi, M.O., Li, J., Du, D., Mahmoud, E., 2025. Heavy Metal Pollution in Coastal 701 
+Environments: Ecological Implications and Management Strategies: A Review. Sustainability, 17(2). 702 
+https://doi.org/10.3390/su17020701 703 
+Extence, C., Chadd, R., England, J., Dunbar, M.J., Wood, P., Taylor, E.D., 2010. The Assessment of Fine Sediment 704 
+Accumulation in Rivers Using Macro -Invertebrate Community Response. River Research and 705 
+Applications, 29. https://doi.org/10.1002/rra.1569 706 
+
+--- Page 33 ---
+
+Feld, C.K., Hering, D., 2007. Community structure or function: effects of environmental stress on benthic 707 
+macroinvertebrates at different spatial scales. Freshwater Biology, 52(7): 13 80–1399. 708 
+https://doi.org/10.1111/j.1365-2427.2007.01749.x 709 
+Förstner, P.D.U., Wittmann, D.G.T.W., 1981. Metal Pollution in the Aquatic Environment. Springer. 710 
+https://doi.org/10.1007/978-3-642-69385-4 711 
+Hering, D., Moog, O., Sandin, L., Verdonschot, P.F.M., 2004. Overview and application of the AQEM assessment 712 
+system. Hydrobiologia, 516(1): 1–20. https://doi.org/10.1023/B:HYDR.0000025255.70009.a5 713 
+Heß, S., Hof, D., Oetken, M., Sundermann, A., 2024. Macroinvertebrate communities respond strongly but non -714 
+specifically to a toxicity gradient derived by effect-based methods. Environmental Pollution, 356: 124330. 715 
+https://doi.org/10.1016/j.envpol.2024.124330 716 
+Hiki, K., Fischer, F.C., Nishimori, T., Endo, S., Watanabe, H., Yamamoto, H., 2023. Influence of water exchange 717 
+rates o n toxicity and bioaccumulation of hydrophobic organic chemicals in sediment toxicity tests. 718 
+Environmental Science: Processes & Impacts, 25(3): 609–620. https://doi.org/10.1039/d2em00462c 719 
+Johnson, R.K., Her ing, D., Furse, M.T., Clarke, R.T., 2006. Detection of ecological change using multiple 720 
+organism groups: metrics and uncertainty. Hydrobiologia, 566(1): 115–137. 721 
+https://doi.org/10.1007/s10750-006-0101-8 722 
+Jolliffe, I.T., Cadima, J., 2016. Principal component analysis: a review and recent developments. Philosophical 723 
+Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences, 374(2065): 724 
+20150202. https://doi.org/10.1098/rsta.2015.0202 725 
+Jun, Y .-C., Won, D.-H., Lee, S. -H., Kong, D. -S., Hwang, S. -J., 2012. A Multimetric Benthic Macroinvertebrate 726 
+Index for the Assessment of Stream Biotic Integrity in Korea, International Journal of Environmental 727 
+Research and Public Health, 3599–3628. https://doi.org/10.3390/ijerph9103599 728 
+Kawai, T., Tanida, K., 2005. Aquatic Insects of Japan: Manual with Keys and Illustrations. Tokai University, Japan, 729 
+1–1342.  730 
+Kim, P.J., Kim, A.R., Kwon, Y ., Min, J.K., Huh, I.A., Kong, D., 2018. Comparative Study on the Sampling 731 
+Methods of Benthic Macroinvertebrates in the Fine Sediments of Freshwater. Journal of Korean Society 732 
+on Water Environment, 34(1): 84–95. https://doi.org/10.15681/KSWE.2017.34.1.84 733 
+Kim, P.J., Lee, J.H., Huh, I.A., Kong, D., 2019. Development of benthic macroinvertebrates sediment index (BSI) 734 
+for bioassessment of freshwater sediment . International Journal of Sediment Research, 34(4): 368–378. 735 
+https://doi.org/10.1016/j.ijsrc.2018.10.014 736 
+Kong, D., Kim, J. -Y ., 2016. Development of Benthic Macroinvertebrates Streambed Index (BMS I) for 737 
+Bioassessment of Stream Physical Habitat. Journal of Korean Society on Water Environment, 32: 1–14. 738 
+https://doi.org/10.15681/KSWE.2018.34.2.183 739 
+Kong, D., Son, S.-H., Hwang, S.-J., Won, D.H., Kim, M.C., Park, J.H., Kim, J.S., 2018. Development of Benthic 740 
+Macroinvertebrates Index (BMI) for Biological Assessment on Stream Environment. Journal of Korean 741 
+Society on Water Environment, 34(2): 183–201. https://doi.org/10.15681/KSWE.2018.34.2.183 742 
+Kwak, I.S., 2015. Introduction to the Chironomidae as a water pollution indicator. Chonnam National University 743 
+Press, 13–156.  744 
+Legendre, P., Legendre, L., 2012. Numerical Ecology. Developments in Env ironmental Modelling. Elsevier 745 
+Science.  746 
+Lobo, J., Shokralla, S., Costa, M.H., Hajibabaei, M., Costa, F.O., 2017. DNA metabarcoding for high-throughput 747 
+monitoring of estuarine macrobenthic communities. Scientific Reports, 7(1): 15618. 748 
+https://doi.org/10.1038/s41598-017-15823-6 749 
+
+--- Page 34 ---
+
+Long, E.R., Chapman, P.M., 1985. A Sediment Quality Triad: Measures of sediment contamination, toxicity and 750 
+infaunal community composition in Puget Sound. Marine Pollution Bulletin, 16(10): 405–415. 751 
+https://doi.org/10.1016/0025-326X(85)90290-5 752 
+Mavromati, E., Kemitzoglou, D., Tsiaoussi, V ., Lazaridou, M., 2021. A new WFD —compliant littoral 753 
+macroinvertebrate index for monitoring and assessment of Mediterranean lakes (HeLLBI). Environmental 754 
+Monitoring and Assessment, 193(11): 745. https://doi.org/10.1007/s10661-021-09493-1 755 
+NIER, 2022. River and Lake Sediment Evaluation Standards, Notification No. 2022 -830. National Institute of 756 
+Environmental Research, Ministry of Environment, Republic of Korea.  757 
+Park, S.Y ., Lee, S.H., Kim, Y .J., 2016. A taxonomic study on the Korean freshwater oligochaetes (Annelida: 758 
+Clitellata). Korean Journal of Limnology, 49(1): 35–44.  759 
+Peckarsky, B.L., Fraissinet, P.R., Pen ton, M.A., Conklin, D.J., 1990. Freshwater Macroinvertebrates of 760 
+Northeastern North America. Cornell University Press.  761 
+Praus, P., 2019. Principal Component Weighted Index for Wastewater Quality Monitoring. Water, 11(11). 762 
+10.3390/w11112376 763 
+Quinn, G.P., Keough, M.J., 2002. Experimental Design and Data Analysis for Biologists. Cambridge University 764 
+Press, Cambridge. DOI: 10.1017/CBO9780511806384 765 
+Relyea, C., Minshall, G., Danehy, R., 2012. Development and Validation of an Aquatic Fine Sediment Biotic 766 
+Index. Environmental management, 49: 242–252. https://doi.org/10.1007/s00267-011-9784-3 767 
+Rosenberg, D.M., Resh, V .H., 1993. Freshwater biomonitoring and benthic macroinvertebrates. Chapman & Hall.  768 
+Rosenberg, R., Nilsson, H.C., Diaz, R.J., 2001. Response of Benthic Fauna and Changing Sediment Redox 769 
+Profiles over a Hypoxic Gradient. Estuarine, Coastal and Shelf Science, 53(3): 343–350. 770 
+https://doi.org/10.1006/ecss.2001.0810 771 
+Simpson, S., Batley, G., Chariton, A., 2013. Revision of the ANZECC/ARMCANZ Sediment Quality Guidelines.  772 
+Sládeček, V ., 1967. The ecological and physiological trends in the saprobiology. Hydrobiologia, 30(3): 513–526. 773 
+https://doi.org/10.1007/BF00964030 774 
+Smith, R.W., Bergen, M., Weisberg, S.B., Cadien, D., Dalkey, A., Montagne, D., Stull, J.K., Velarde, R.G., 2001. 775 
+BENTHIC RESPONSE INDEX FOR ASSESSING INFAUNAL COMMUNITIES ON THE SOUTHERN 776 
+CALIFORNIA MAINLAND SHELF. Ecological Applications, 11(4): 1073–1087. 777 
+https://doi.org/10.1890/1051-0761(2001)011[1073:BRIFAI]2.0.CO;2 778 
+Song, J., Kwak, I.-S., Kong, D., 2025. Sampling Method for Community Structure of Benthic Macroinvertebrates 779 
+in Freshwater Sediment. Journal of Korean Society on Water Environment, 41(5): 403–417. 780 
+https://doi.org/10.15681/KSWE.2025.41.5.403 781 
+Sturges, H.A., 1926. The Choice of a Class Interval. Journal of the American Statistical Association, 21(153): 65–782 
+66. https://doi.org/10.1080/01621459.1926.10502161 783 
+Sudarso, J., Ibrahim, A., Sugiarti, Aziz, C.H., Hermana, I.S., Riani, E., Mayaningtyas, P., Yamin, M., Zamroni, 784 
+M., Frisca, A., Utami, R.R., 2026. Performance of the Cumulative Biotic Index (CBI) and other biotic 785 
+indices in assessing ecological health of the Upper Citarum River, Indonesia. Water Cycle, 7: 83–98. 786 
+https://doi.org/10.1016/j.watcyc.2025.06.007 787 
+ter Braak, C.J.F., Verdonschot, P.F.M., 1995. Canonical correspondence analysis and related multivariate methods 788 
+in aquatic ecology. Aquatic Sciences, 57(3): 255–289. https://doi.org/10.1007/BF00877430 789 
+Townsend, C.R., Uhlmann, S.S., Matthaei, C.D., 2008. Individual and combined responses of stream ecosystems 790 
+
+--- Page 35 ---
+
+to multiple stressors. Journal of Applied Ecology, 45(6): 1810–1819. https://doi.org/10.1111/j.1365-791 
+2664.2008.01548.x 792 
+U.S. EPA, 2013. Aquatic Life Ambient Water Quality Criteria for  Ammonia—Freshwater 2013. EPA 822-R-13-793 
+001. United States Environmental Protection Agency.  794 
+U.S.EPA, 2003. Procedures for the Derivation of Equilibrium Partitioning Sediment Benchmarks (ESBs) for the 795 
+Protection of Benthic Organisms: PAH Mixtures, U.S. Environmental Protection Agency, Washington, DC.  796 
+V on Bertrab, M.G., Krein, A., Stendera, S., Thielen, F., Hering, D., 2013. Is fine sediment deposition a main driver 797 
+for the composition of benthic macroinvertebrate assemblages? Ecological Indicators, 24: 589–598. 798 
+https://doi.org/10.1016/j.ecolind.2012.08.001 799 
+Weibull, W., 1951. A Statistical Distribution Function of Wide Applicability. Journal of Applied Mechanics, 18(3): 800 
+293–297. https://doi.org/10.1115/1.4010337 801 
+Wharton, G., Phillips, J., Legout, C., Grabowski, R.C., 2023. Preface: understanding fine sediment dynamics in 802 
+aquatic systems. Journal of Soils and Sediments, 23(10): 3567–3573. https://doi.org/10.1007/s11368-023-803 
+03655-z 804 
+Wood, P.J., Armitage, P.D., 1997. Biological Effects of Fine Sediment in the Lotic Environment. Environmental 805 
+management, 21(2): 203–217. https://doi.org/10.1007/s002679900019 806 
+Yoon, I.B., 1988. Illustrated Encyclopedia of Fauna and Flora of Korea, Aquatic Insect, 30. A Staste Textbook, 807 
+Seoul, 1–840.  808 
+Yoon, I.B., Kong, D., Ryu, J.K., 1992. Studies on the Biological E valuation of Water Quality by Benthic 809 
+Macroinvertebrates (1) - Saprobic Valency and Indicative Value. Korean Journal of Environmental Biology, 810 
+10: 24–39.  811 
+Zelinka, M., Marvan, P., 1961. Zur Präzisierung der biologischen Klassifikation der Reinheit fließender Gewässer. 812 
+Archiv fur Hydrobiologie, 57: 389–407.  813 
+Zhang, C., Yu, Z.g., Zeng, G.m., Jiang, M., Yang, Z.z., Cui, F., Zhu, M.y., Shen, L.q., Hu, L., 2014. Effects of 814 
+sediment geochemical properties on heavy metal bioavailability. Environment International, 73: 270–281. 815 
+https://doi.org/10.1016/j.envint.2014.08.010 816 
+Zhou, Z., Grandjean, T.J., de Smit, J., van Belzen, J., Fivash, G.S., Walles, B., Beauchard, O., van Dalen, J., Blok, 817 
+D.B., van Ijzerloo, L., Ysebaert, T., Bouma, T.J., 2024. Sediment dynamics shape macrofauna mobility 818 
+traits and abundance on tidal flats. Limnology and Oceanography, 69(10): 2278–2293. 819 
+https://doi.org/10.1002/lno.12669 820 
+ 821 
+
+--- Page 36 ---
+
+Development of the Korean Benthic Macroinvertebrate Sediment Index 1 
+(KBSI) for assessing sediment-associated ecological condition in freshwater 2 
+ecosystems 3 
+Jeaha Songa, Chanyoung Jeonga, Ihn-Sil Kwakb, Dongsoo Konga* 4 
+ 5 
+aDepartment of Life Science, Kyonggi University, Suwon-si, Gyeonggi-do, 16227, Republic of 6 
+Korea 7 
+bDepartment of Ocean Integrated Science, Chonnam National University, Yeosu-si, Jeollanam-8 
+do, 59626, Republic of Korea 9 
+ 10 
+∗Corresponding author. Tel: +82-31-249-9649; Fax: +82-504-286-7457 11 
+E-mail address: Jeaha Song: papawogk@naver.com; Chanyoung Jeong: 12 
+heaveninjcy@kyonggi.ac.kr; Ihn -Sil Kwak: iskwak@jnu.ac.kr; Dongsoo Kong: dskong@ 13 
+kyonggi.ac.kr 14 
+  15 
+Revised manuscript (unmarked, editable source file)
+ Click here to access/download;Revised manuscript
+(unmarked, editable source file);ECOLIND-
+Click here to view linked References
+
+--- Page 37 ---
+
+Abstract 16 
+Freshwater sediments accumulate organic matter, nutrients, metals, and fine particles and can 17 
+influence benthic macroinvertebrate assemblages. However, biological tools for evaluating 18 
+sediment-associated ecological condition remain limited in Korean freshw ater systems. This 19 
+study developed the Korean Benthic Macroinvertebrate Sediment Index (KBSI) as a field -20 
+based biological indicator using data from 80 sites and 320 site-survey sample units. Sediment 21 
+variables, including porewater total ammonia nitrogen (T AN), acid-volatile sulfides (AVS), 22 
+total organic carbon (TOC), the Metals Tier II Index, and mud fraction, were summarized using 23 
+principal component analysis. PC1 represented an integrated sediment -condition gradient 24 
+associated with organic enrichment, red ucing conditions, relative sediment -bound metal 25 
+contamination, and fine-particle accumulation. PC1 scores from 309 sample units containing 26 
+selected indicator taxa were divided into nine class intervals using a Weibull cumulative 27 
+distribution function and Sturges’ rule. Taxon-specific tolerance values and indicator weights 28 
+were derived from occurrence distributions along this gradient and used to calculate KBSI. 29 
+KBSI showed significant negative relationships with TAN, AVS, TOC, the Metals Tier II 30 
+Index, mud fraction, and PC1, indicating that lower index values were associated with more 31 
+degraded sediment -associated field conditions. The relationship between observed and 32 
+calculated KBSI values supported internal agreement within the development dataset but did 33 
+not constitute independent validation. KBSI values were classified into five ecological 34 
+condition classes from A to E for practical interpretation. KBSI is intended for biological 35 
+assessment of depositional sediment habitats and should be interpreted together with sediment 36 
+physicochemical and habitat information rather than as an independent chemical sediment -37 
+quality standard or direct toxicological endpoint. 38 
+Keywords: Benthic macroinvertebrates; Biological assessment; Freshwater sediment; KBSI; 39 
+
+--- Page 38 ---
+
+Principal component analysis; Sediment-associated ecological condition 40 
+41 
+
+--- Page 39 ---
+
+1. Introduction 42 
+Sediment in rivers and lakes is a particulate matrix of gravel, sand, silt, clay, and 43 
+organic matter that stores watershed -derived pollutants over extended periods and exchanges 44 
+solutes with the water column as a dynamic reactive system (Chapman, 1990; Zhou et al., 2024). 45 
+Settling and resuspension, sorption and desorption, and redox -mediated transformations 46 
+continually modify sediment properties (El-Sharkawy et al., 2025; Hiki et al., 2023) . Where 47 
+fine fractions dominate, contaminant accumulation and bioavailability increase and can 48 
+restructure benthic macroinvertebrate assemblages (Relyea et al., 2012; Wharton et al., 2023). 49 
+Therefore, single -time measurements of water -column concentrations do not adequately 50 
+represent cumulative contamination or habitat alteration, underscoring the need for biological 51 
+indicators that reflect sediment-associated ecological conditions. 52 
+The Oligochaete Index of Sediment Bioindication (IOBS) uses oligochaete 53 
+assemblage composition to evaluate sediment -associated biological condition in relation to 54 
+sediment impairment (AFNOR, 2002; AFNOR, 2016), and the U.S. Equilibrium Partitioning 55 
+Sediment Benchmarks (ESB) quantify linkages between sediment chemistry and biological 56 
+effects (U.S.EPA, 2003). The Sediment Quali ty Triad (SQT) integrates chemistry, toxicity 57 
+testing, and community data to diagnose ecological degradation in contaminated sediments 58 
+(Chapman, 1990). Stress-specific biotic indices have also been developed: the Fine Sediment 59 
+Biotic Index (FSBI) encodes sensitivities to fine particles (Relyea et al., 2012) , and the 60 
+Proportion of Sediment-sensitive Invertebrates (PSI) uses the share of sensitive taxa to evaluate 61 
+restoration outcomes (Extence et al., 2010). 62 
+In coastal and estuarine environments, the Benthic Response Index (BRI) and the 63 
+AZTI Marine Biotic Index (AMBI) apply weighted -tolerance principles and have informed 64 
+analogous approaches for fresh waters (Borja et al., 2000; Smith et al., 2001). More recently, 65 
+
+--- Page 40 ---
+
+multivariate formulations—such as the Hellenic Lake Littoral Biotic Index (HeLLBI) and the 66 
+Cumulative Biotic I ndex (CBI) —have related community structure to pollution gradients 67 
+within explicit statistical frameworks, while high -throughput metabarcoding is improving 68 
+congruence with morphology-based indices (Lobo et al., 2017; Mavromati et al., 2021; Sudarso 69 
+et al., 2026). 70 
+In Korea, nationally standardized tools for water -column conditions —such as the 71 
+Korean Benthic macroinvertebrate Index of Biotic Integrity (KB -IBI)—are established, but 72 
+sediment-focused indicators remain comparatively underdeveloped (Jun et al., 2012) . A 73 
+domestic prototype, the Benthic macroinvertebrate Sediment Index (BSI), estimated taxon 74 
+tolerance values and indicator weights from relative frequencies in fr eshwater sediments and 75 
+computed a weighted mean using a Sediment Quality Index that integrates total organic carbon 76 
+(TOC), ammonia (NH ₃–N), and heavy metals (Kim et al., 2019) . Although BSI showed 77 
+statistical associations with sediment impairment gradients, its generality was constrained by 78 
+limited sample size and taxonomic uncertainty within Chironomidae, indicating the need for a 79 
+tool calibrated with broader spatial coverage and refined taxonomy. 80 
+To address this gap, we developed the Korean Benthic Macroinvertebrate Sediment 81 
+Index (KBSI) as a field-based biological indicator of sediment-associated ecological condition 82 
+in Korean freshwaters. Specifically, this study aimed to: (1) assemble a nationwi de dataset of 83 
+co-located benthic macroinvertebrate assemblages and sediment physicochemical conditions 84 
+from major Korean river basins and representative waterbody types; (2) define an integrated 85 
+sediment environmental gradient using PCA of porewater total ammonia nitrogen, acid-volatile 86 
+sulfides, total organic carbon, heavy metals, and the mud fraction; (3) derive taxon -specific 87 
+tolerance values and indicator weights from macroinvertebrate occurrence patterns along the 88 
+PC1-based sediment gradient; and (4) f ormulate and examine KBSI as a community -level 89 
+
+--- Page 41 ---
+
+index by relating index values to individual sediment variables, the PC1 sediment gradient, and 90 
+observed–calculated index agreement. KBSI is therefore intended not as a stand -alone 91 
+chemical or toxicological measure of sediment quality, but as a biological indicator of benthic 92 
+assemblage responses to sediment-associated environmental conditions under field settings. 93 
+ 94 
+2. Materials and methods 95 
+2.1 Study area and sampling design 96 
+2.1.1 Site description  97 
+This study was conducted at 80 freshwater sediment monitoring sites distributed across 98 
+the major river basins of Korea (Fig. 1). The sites were selected to represent broad gradients in 99 
+sedimentary environments, waterbody type, and anthropogenic influence, including both lotic 100 
+and lentic systems. For descriptive and management -oriented interpretation, the sites were 101 
+categorized into five groups: general streams, urban streams, industrial streams, lakes, and 102 
+reservoirs. The stream categories were assigned acc ording to the dominant surrounding land -103 
+use setting and the original monitoring-site designation, rather than using uniform quantitative 104 
+catchment-scale land -use thresholds. Urban streams represented lotic sites located in 105 
+predominantly urbanized settings, whereas industrial streams represented sites associated with 106 
+industrial areas. General streams comprised the remaining lotic sites that were not classified as 107 
+urban or industrial streams. 108 
+These categories were used to describe broad differences in waterbo dy type, 109 
+surrounding land -use setting, and sediment depositional environment, rather than to define 110 
+strict reference or impairment classes. General streams were therefore not treated as reference 111 
+or best -available sites and could include streams influenced  by agriculture, forestry, flow 112 
+
+--- Page 42 ---
+
+regulation, impoundments, or other catchment and hydromorphological pressures. 113 
+Field surveys were conducted repeatedly between 2022 and 2024, producing a total of 114 
+320 site-survey sample units. For the derivation of taxon-specific tolerance values and indicator 115 
+weights, 309 sample units in which selected indicator taxa occurred were used. Sample units 116 
+without selected indicator taxa were excluded from the tolerance -value calculation because 117 
+they did not provide the taxon-occurrence information required to estimate biological responses 118 
+along the sediment environmental gradient. 119 
+The sampling design was developed to support a field-based biological assessment of 120 
+sediment-associated ecological condition. Accordingly, biological and sediment samples were 121 
+collected from comparable depositional habitats within each site, where fine sediments and 122 
+associated organic or reduced materials could accumulate. The sampling framework was 123 
+therefore intended for depositional sediment habitats, not for coarse riffle or boulder-dominated 124 
+substrates. This design allowed the KBSI to characterize benthic macroinvertebrate assemblage 125 
+responses to sediment-associated environmental conditions under field settings. 126 
+ 127 
+2.1.2. Collection and Identification of Benthic Macroinvertebrates 128 
+Benthic macroinvertebrates were collected from depositional sediment habitats using 129 
+a cylindrical core sampler with an internal diameter of 7.5 cm. At each site, five replicate cores 130 
+were taken to a depth of 20 cm where coring was feasible (Kim et al., 2018; Song et al., 2025). 131 
+The 20 cm sampling depth was adopted to capture not only organisms concentrated in the upper 132 
+sediment layer, but also burrowing taxa, particularly oligochaetes, that may occur in deeper 133 
+sediment layers. 134 
+In the field, sediment core contents were washed through a 0.20-mm sieve to minimize 135 
+
+--- Page 43 ---
+
+the loss of small -bodied sediment -dwelling organisms, particularly oligochaetes and 136 
+chironomid larvae. Retained materials were preserved in ethanol and transported to the 137 
+laboratory. The use of a 0.20 -mm sieve was selected because small -bodied taxa in fine 138 
+sediments can be underestimated when larger mesh sizes are used (Song et al., 2025). 139 
+In the laboratory, residual sediment was removed and organisms were sorted under a 140 
+stereomicroscope. Specimens were identified to the lowest practicable tax onomic level, 141 
+generally to species where diagnostic characters were available, using standard taxonomic 142 
+references (Cummins and Merritt, 1996; Kawai and Tanida, 2005; Peckarsky et al., 1990; Yoon, 143 
+1988). Chironomid larvae were identified based on diagnostic structures such as the head 144 
+capsule, mentum, mandible, and antennae (Kwak, 2015). Oligochaetes were identified using 145 
+external and reproductive morphological characters, including chaetal and reproductive 146 
+structures (Park et al., 2016) . All identified specimens were preserved in 80% ethanol to 147 
+minimize morphological deformation.  148 
+Taxa that were sufficiently frequent and taxonomically reliable were retained as 149 
+candidate indicator taxa for KBSI development. This taxonomic screening was necessary 150 
+because the derivation of tolerance values and indicator weights requires reliable occurrence 151 
+information along the sediment environmental gradient. 152 
+ 153 
+2.1.3. Sediment Sampling and Physicochemical Analysis 154 
+Surface sediment samples for physicochemical analysis were collected concurrently 155 
+with the biological samples from the corresponding depositional habitats within each site using 156 
+a cylindrical core sampler with an inter nal diameter of 7.5 cm.  For sediment chemistry and 157 
+particle-size analysis, the upper 0–7 cm sediment layer was used because this layer represents 158 
+
+--- Page 44 ---
+
+the biologically active surface sediment where organic matter accumulation, redox gradients, 159 
+porewater chemist ry, and contaminant binding are most pronounced. This analytical depth 160 
+differed from the macroinvertebrate sampling depth of 20 cm, which was used to include 161 
+deeper-burrowing taxa. 162 
+Each sediment sample was sealed in a 300-mL high-density polyethylene bottle, stored 163 
+at ≤4 °C, and transported to the laboratory. The target sediment variables were porewater total 164 
+ammonia nitrogen (TAN), acid -volatile sulfides (A VS), total organic carbon (TOC), heavy 165 
+metals, and particle -size composition. TAN was used as an indi cator of nitrogenous organic 166 
+enrichment in sediment porewater, A VS represented reduced sediment conditions associated 167 
+with sulfide formation, and TOC represented organic matter accumulation. 168 
+TAN was quantified colorimetrically  at 630 nm. TOC was measured using a CHNS 169 
+analyzer after removal of inorganic carbon. A VS was determined as Ag₂S precipitated under a 170 
+nitrogen stream, followed by filtration and gravimetric drying. For heavy metals, sediment 171 
+samples were digested with mixe d acids and analyzed using ICP –AES or ICP –MS; Hg was 172 
+quantified using TDA–AAS. Relative sediment-bound metal contamination was summarized 173 
+using the Metals Tier II Index based on the Tier II sediment guideline values for Cu, Pb, Ni, 174 
+As, Hg, Zn, Cd, and Cr (NIER, 2022).  175 
+Metals Tier II Index =  
+∑ (
+𝐸𝐶𝑖
+𝑃𝐸𝐿𝐾𝑖
+)8
+𝑖=1
+8  (1) 176 
+Where ECᵢ is the measured concentration of metal i and PELK ᵢ is the corresponding 177 
+Tier II guideline value. Higher values indicate greater relative sediment -bound metal 178 
+contamination compared with the Tier II sediment guideline benchmarks. 179 
+Particle-size fractions were separated using 2 -mm and 75 -µm sieves into gravel (>2 180 
+mm), sand (0.075–2 mm), and silt–clay (<0.075 mm) fractions. In this study, the fine-particle 181 
+
+--- Page 45 ---
+
+variable used for KBSI development r efers to the silt–clay fraction, hereafter termed the mud 182 
+fraction, and does not include sand.  The mud fraction was treated as a physical depositional 183 
+variable rather than a chemical contaminant, because fine particles can co -vary with organic 184 
+matter accumulation, reduced conditions, and contaminant retention in depositional habitats.  185 
+Routine quality assurance and quality control procedures followed the national sediment 186 
+monitoring guidelines (NIER, 2022). 187 
+ 188 
+2.2. Development and calculation of the Korea n Benthic Macroinvertebrate Sediment Index 189 
+(KBSI) 190 
+2.2.1. PCA-derived sediment environmental gradient 191 
+To derive an integrated sediment environmental gradient for KBSI development, 192 
+principal component analysis (PCA) was performed using the sediment physicochemical 193 
+variables measured at each sample unit. PCA was used to reduce redundancy among correlated 194 
+environmental variables and to summarize the dominant multivariate gradient in sediment 195 
+condition (Abdi and Williams, 2010; Jolliffe and Cadima, 2016) . The variables included 196 
+porewater total ammonia nitrogen (TAN), acid -volatile sulfides (A VS), total organic carbon 197 
+(TOC), the Metals Tier II Index, and the mud fraction. These variables were selected to 198 
+represent major sediment -associated conditions, includ ing nitrogenous organic enrichment, 199 
+reduced sediment conditions, organic matter accumulation, relative sediment -bound metal 200 
+contamination, and fine-particle deposition. 201 
+Prior to PCA, variables with skewed distributions were transformed to reduce the 202 
+influence of extreme values. TAN, A VS, TOC, and the Metals Tier II Index were log -203 
+transformed, whereas the mud fraction, expressed as proportional data, was arcsine square-root 204 
+
+--- Page 46 ---
+
+transformed. All transformed variables were standardized to a mean of zero and a stan dard 205 
+deviation of one before analysis, and PCA was conducted on the standardized environmental 206 
+matrix (Legendre and Legendre, 2012; Quinn and Keough, 2002). 207 
+The first principal component score was used as the integrated sediment environmental 208 
+gradient for deriving taxon-specific tolerance values and indicator weights. PC1 was selected 209 
+because it represented the dominant axis of variation in sediment conditions and provided a 210 
+continuous gradient along which macroinvertebrate occurrence patterns could be evaluated. In 211 
+this study, PC1 was not interpreted as a stand-alone chemical pollution index or an independent 212 
+measure of sediment toxicity. Instead, it was used as a multivariate sediment-condition gradient 213 
+reflecting field-based co-variation among sediment physicochemical variables. 214 
+The PC1 scores of sample units containing selected indicator taxa were used in the 215 
+subsequent derivation of biological indicator values. Among the 320 site-survey sample units, 216 
+309 sample units with selected indicator taxa were retained for this step, whereas sample units 217 
+without selected indicator taxa were excluded because they did not provide occurrence 218 
+information required for estimating taxon responses along the sediment environmental gradient. 219 
+ 220 
+2.2.2. Classification of the PC1 gradient and occurrence distribution 221 
+To classify the PC1 -based sediment environmental gradient for deriving biological 222 
+indicator values, the distribution of PC1 scores was analyzed using sample units in wh ich 223 
+selected indicator taxa occurred. Among the 320 site -survey sample units, 309 sample units 224 
+were retained for this step after excluding 11 sample units in which no selected indicator taxa 225 
+were recorded. 226 
+The distribution of PC1 scores for the 309 sample units was fitted using a Weibull 227 
+
+--- Page 47 ---
+
+cumulative distribution function, which was selected because of its flexibility in describing 228 
+skewed environmental-gradient distributions and deriving probability -based class boundaries 229 
+(Weibull, 1951). The Weibull cumulative distribution function was expressed as: 230 
+𝐹(𝑥) =  1 − exp [−(
+𝑥−𝜃
+𝜆 )𝑘] (2) 231 
+where 𝐹(𝑥)  is the cumulative probability at PC1 score 𝑥 , 𝜃  is the location 232 
+parameter, 𝜆 is the scale parameter, and 𝑘 is the shape parameter. 233 
+The number of PC1 class intervals was determined using Sturges ’ rule, resulting in 234 
+nine class intervals (Sturges, 1926): 235 
+𝐾 = 1 + log2(𝑛) (3) 236 
+where 𝐾 is the number of class intervals and 𝑛is the number of sample units. For the 237 
+309 sample units used in this step, Sturges’ rule produced approximately nine intervals. 238 
+Class boundaries were obtained from the inverse Weibull cumulative distribution 239 
+function so that each PC1 interval represented an equal probability range: 240 
+𝑥𝑝 =  𝜃 + 𝜆[− ln(1 − 𝑝)]1/𝑘 (4) 241 
+where 𝑥𝑝 is the PC1 score corresponding to cumulative probability 𝑝. Each interval 242 
+was assigned a representative class value, which was subsequently used to  summarize the 243 
+occurrence distribution of each indicator taxon along the PC1 gradient. This procedure 244 
+provided a standardized basis for estimating taxon -specific tolerance values and indicator 245 
+weights from field occurrence data. 246 
+In this framework, the PC1 classes were not treated as regulatory sediment -quality 247 
+standards. Rather, they were used as empirical intervals of the multivariate sediment-condition 248 
+gradient to quantify biological occurrence patterns. This interpretation is important because 249 
+
+--- Page 48 ---
+
+PC1 includes both chemical variables and a physical depositional variable, the mud fraction, 250 
+which may reflect natural hydromorphological processes as well as anthropogenic sediment 251 
+accumulation. 252 
+ 253 
+2.2.3. Derivation of taxon-specific tolerance values and indicator weights 254 
+Taxon-specific tolerance values and indicator weights were derived from the 255 
+occurrence distribution of selected indicator taxa along the PC1-based sediment environmental 256 
+gradient. Only taxa with reliable taxonomic resolution and sufficient occurren ce frequency 257 
+were retained as indicator taxa, because rare or taxonomically uncertain taxa may produce 258 
+unstable tolerance estimates. This screening was intended to ensure that KBSI was based on 259 
+taxa with interpretable field occurrence patterns along the se diment-condition gradient. This 260 
+occurrence-based approach follows the general logic of deriving biological indicator values 261 
+from taxon distributions along environmental gradients  (Kim et al., 2019; Kong and Kim, 262 
+2016). The final indicator set therefore represents a screened subset of taxa suitable for KBSI 263 
+calibration rather than a complete inventory of all taxa collected during the surveys. 264 
+For each indicator taxon, its occurrence frequency was calculated within each of the 265 
+nine PC1 class intervals. The occurrence frequency of taxon 𝑖 in class 𝑘 was expressed as: 266 
+𝑅𝐹𝑖𝑘 =  
+𝑛𝑖𝑘
+𝑁𝑘
+× 100 (5) 267 
+where 𝑅𝐹𝑖𝑘 is the relative occurrence frequency of taxon 𝑖 in PC1 class 𝑘, 𝑛𝑖𝑘 is 268 
+the number of sample units in class 𝑘 where taxon 𝑖 occurred, and 𝑁𝑘 is the total number 269 
+of sample units in class 𝑘. 270 
+The occurrence frequencies of each taxon across the nine PC1 classes were then 271 
+
+--- Page 49 ---
+
+normalized to obtain its occurrence valency: 272 
+𝑉𝑖𝑘 =  
+𝑅𝐹𝑖𝑘
+∑ 𝑅𝐹9
+𝑘=1 𝑖𝑘
+  (6) 273 
+where 𝑉𝑖𝑘  represents the proportional occurrence valency of taxon 𝑖  in class 𝑘 . 274 
+Taxon-specific tolerance values were calculated as the weighted average of the PC1 class 275 
+values using occurrence valencies as weights: 276 
+𝑡𝑖 =  ∑ 𝐶𝑘𝑉𝑖𝑘 9
+𝑘=1  (7) 277 
+where 𝑡𝑖 is the tole rance value of taxon 𝑖, and 𝐶𝑘 is the representative class value 278 
+assigned to PC1 class 𝑘 . Higher tolerance values indicate that a taxon occurred more 279 
+frequently under sediment conditions associated with higher PC1 -derived stress levels, 280 
+whereas lower values indicate occurrence concentrated under less degraded sediment 281 
+conditions. 282 
+Indicator weights were assigned according to the concentration of each taxon ’s 283 
+normalized occurrence valencies across the nine PC1 classes. Taxa whose occurrence valencies 284 
+were concentrated within a limited portion of the PC1 gradient were assigned higher indicator 285 
+weights, whereas taxa with occurrence valencies distributed broadly across multiple classes 286 
+were assigned lower weights. Thus, the indicator weight represents the specificity of a taxon’s 287 
+occurrence distribution along the sediment-condition gradient, rather than its tolerance position 288 
+or physiological sensitivity. 289 
+This distinction between tolerance value and indicator weight prevents taxa with 290 
+similar tolerance positions but different occurrence breadths from being treated as equivalent. 291 
+In the final indicator table, taxa with strongly concentrated occurrence distributions were 292 
+assigned higher indicator weights, whereas taxa occurring across broader portions of the PC1  293 
+gradient were assigned lower weights. 294 
+
+--- Page 50 ---
+
+ 295 
+2.2.4. Calculation and classification of the Korean Benthic Macroinvertebrate Sediment Index 296 
+(KBSI) 297 
+The Korean Benthic Macroinvertebrate Sediment Index (KBSI) was calculated as a 298 
+weighted community-level index using the taxon-specific tolerance value, frequency value, and 299 
+indicator weight of each indicator taxon. For each sample unit, taxa included in the final 300 
+indicator list were matched with their corresponding tolerance values and indicator weights, 301 
+and their frequency values were used to represent their relative contribution to the assemblage. 302 
+This weighted -index structure follows the general approach of combining taxon tolerance, 303 
+occurrence, and indicator strength in benthic macroinvertebrate bioassessment  (Kim et  al., 304 
+2019). 305 
+The KBSI was calculated as: 306 
+𝐾𝐵𝑆𝐼 = (10 −
+∑ 𝑡𝑖ℎ𝑖𝑔𝑖
+𝑛
+𝑖=1
+∑ ℎ𝑖𝑔𝑖𝑛
+𝑖=1
+) × 10 (8) 307 
+where 𝑛 is the number of indicator taxa occurring in a sample unit, 𝑡𝑖 is the tolerance 308 
+value of taxon 𝑖, ℎ𝑖 is the frequency value of taxon 𝑖, and 𝑔𝑖 is the indicator weight of taxon 309 
+𝑖.  310 
+The weighted mean tolerance value was subtracted from 10 so that higher KBSI values 311 
+indicate better sediment -associated ecological condition, whereas lower values indicate 312 
+assemblages dominated by taxa tolerant of degraded sediment conditions. 313 
+KBSI values were scaled from 0 to 100 and classified into five ecological condition 314 
+classes. For practical interpretation, KBSI values were classified into five assessment classes 315 
+following the KBSI assessment framework developed in this study: A, high, 70–100; B, good, 316 
+
+--- Page 51 ---
+
+60–<70; C, moderate, 50–<60; D, poor, 40–<50; and E, bad, 0–<40. 317 
+These classes provide interpretive categories for biological assessment of sediment -318 
+associated ecological condition. They should not be interpreted as  independent chemical 319 
+sediment-quality standards, regulatory criteria, or toxicological thresholds. Rather, they 320 
+summarize KBSI values within the assessment framework developed for this study. 321 
+ 322 
+3. Results and discussion 323 
+3.1. PCA-derived sediment environmental gradient 324 
+Principal component analysis summarized the covariance structure of the five 325 
+sediment physicochemical variables used to characterize sediment-associated field conditions: 326 
+porewater total ammonia nitrogen (TAN), acid -volatile sulfides (A VS), total organic carbon 327 
+(TOC), Metals Tier II Index, and mud fraction. The first three PCA axes explained 86.0% of 328 
+the total variance, with PC1 accounting for 58.0%, PC2 for 17.2%, and PC3 for 10.8% (Table 329 
+1; Fig. 2). PC1 was the dominant axis because all five sediment vari ables showed clear 330 
+associations with this axis. The loadings on PC1 were 0.66 for ln(TAN), 0.69 for ln(A VS), 0.86 331 
+for ln(TOC), 0.82 for ln(Metals Tier II Index), and 0.76 for ln(mud fraction).  Thus, PC1 332 
+represented a composite sediment environmental gradient along which nitrogenous enrichment, 333 
+reducing sediment conditions, organic matter accumulation, relative sediment -bound metal 334 
+contamination, and fine-particle deposition co-varied. 335 
+Organic matter accumulation is ecologically relevant because it can incre ase oxygen 336 
+demand in surface sediments and promote conditions unfavorable to oxygen-sensitive benthic 337 
+fauna (Rosenberg et al., 2001). A VS reflects reduced sediment conditions, and sulfide-rich or 338 
+strongly reduced sediments can  modify metal binding, porewater chemistry, and exposure 339 
+
+--- Page 52 ---
+
+conditions for sediment-dwelling organisms (Simpson et al., 2013). TAN was interpreted as a 340 
+porewater indicator of nitrogenous organic enrichment rather than as a stand -alone toxicant 341 
+gradient, because ammonia effects in sediments depend on pH, redox condition, and 342 
+porewater–overlying water exchange. The Metals Tier II Index summarized the relative degree 343 
+of sediment -bound metal contamination, but its ecological interpretation should consider 344 
+bioavailability and site -specific geochemical conditions rather than total concentration alon e 345 
+(Simpson et al., 2013). Therefore, the strong contribution of TOC, A VS, TAN, and the Metals 346 
+Tier II Index indicates that PC1 captured a biogeochemical gradient associated with organic 347 
+enrichment, reduced sediment conditions, and relative sediment-bound metal contamination. 348 
+Mud fraction also contributed strongly to PC1, but its interpreta tion differs from that 349 
+of chemical contaminants. Fine particles can reduce interstitial flow, alter oxygen exchange, 350 
+and modify benthic habitat structure in lotic environments (Wood and Armitage, 1997). Fine-351 
+grained sediment can also affect macroinvertebrate assemblages by filling substrate interstices 352 
+and reducing the availability of coarse-substrate microhabitats used by rheophilic or sediment-353 
+sensitive taxa (Bylak and Kukuła, 2022). In addition, fine sediments can enhance the retention 354 
+of organic matter and particle -reactive contaminants because of their la rge surface area and 355 
+depositional stability (Wharton et al., 2023) . However, mud accumulation may arise from 356 
+natural hydromorphological and depositional processes as well as from anthropogenic changes 357 
+in flow regulation, land use, and sediment supply (Wharton et al., 2023; Wood and Armitage, 358 
+1997). Accordingly, mud fraction was treated as a physical depositional variable rather than as 359 
+a chemical contaminant. 360 
+For these reasons, PC1 was interpreted as a field -based multivariate sediment -361 
+condition gradient, not as a stand -alone sediment toxicity index or a regulatory sediment -362 
+quality standard. Sediment chemistry and benthic community composition can provide 363 
+
+--- Page 53 ---
+
+complementary lines of evidence for sediment -associated ecological assessment, but neither 364 
+line of evidence alone fully resolves causal mechanisms under field conditions (Long and 365 
+Chapman, 1985). The sediment quality triad framework similarly emphasizes that sediment 366 
+chemistry, toxicity, and benthic community responses should be interpreted together rather than 367 
+treated as interchangeable measures (Chapman, 1990). In the present study, KBSI was derived 368 
+from macroinvertebrate occurrence patterns along the PC1 gradient; therefore, it should be 369 
+interpreted as a biological indicator of sediment -associated ecological condition under field 370 
+settings, not as an independent chemical or toxicological assessment of sediment quality. 371 
+ 372 
+3.2. Classification of PC1 scores and derivation of class values 373 
+Among the 320 site-survey sample units, 309 sample units contained selected indicator 374 
+taxa and were therefore used to classify the PC1 sediment -condition gradient. The remaining 375 
+11 sample units were excluded from this step because they did not contain selected indicator 376 
+taxa and therefore provided no taxon -occurrence information for deriving tolerance values or 377 
+indicator weights. The PC1 scores of the 309 retained sample units were used to des cribe the 378 
+empirical distribution of sediment -associated field conditions represented by the indicator -379 
+taxon dataset. 380 
+The distribution of PC1 scores was fitted using a Weibull cumulative distribution 381 
+function (Fig. 3). The Weibull model was used to describe the probability distribution of PC1 382 
+scores and to derive class boundaries along the continuous sediment -condition gradient. 383 
+Because the objective was to construct empirical intervals for biological indicator derivation 384 
+rather than to define regulatory sed iment-quality thresholds, the distribution was divided into 385 
+equal cumulative-probability intervals. Sturges’ rule produced nine class intervals for the 309 386 
+sample units, and the inverse Weibull cumulative distribution function was used to estimate the 387 
+
+--- Page 54 ---
+
+PC1 boundary and representative class value for each interval (Table 2). 388 
+The resulting PC1 classes covered the observed sediment-condition gradient from low 389 
+PC1 scores to high PC1 scores. Under the sign convention used in this study, higher PC1 scores 390 
+represented stronger sediment -associated environmental stress, including greater organic 391 
+enrichment, reducing conditions, relative sediment -bound metal contamination, and mud 392 
+accumulation. The representative class values therefore provided a standardized n umerical 393 
+basis for estimating taxon-specific occurrence positions along the sediment-condition gradient. 394 
+Taxa occurring mainly in lower PC1 classes were assigned lower tolerance values, whereas 395 
+taxa occurring mainly in higher PC1 classes were assigned higher tolerance values. 396 
+Importantly, these PC1 classes should not be interpreted as sediment-quality standards 397 
+or toxicity thresholds. They are empirical intervals of a field -based multivariate sediment -398 
+condition gradient derived from the distribution of PC1 scores in sample units containing 399 
+indicator taxa. This distinction is necessary because PC1 integrates chemical variables with 400 
+mud fraction, a physical depositional variable that can reflect both natural hydromorphological 401 
+processes and anthropogenic sediment accumulation. The class values were therefore used only 402 
+as an internal scaling framework for deriving KBSI tolerance values and indicator weights, not 403 
+as independent criteria for classifying sediment contamination or toxicity. 404 
+ 405 
+3.3. Taxon-specific tolerance values and indicator weights 406 
+Taxon-specific tolerance values and indicator weights were derived from the 407 
+occurrence distributions of selected indicator taxa across the nine PC1 class intervals (Table 3). 408 
+In total, 137 indicator taxa were retained in the final indicator table. This approach follows the 409 
+logic of field-based macroinvertebrate bioassessment, in which taxon scores are inferred from 410 
+
+--- Page 55 ---
+
+observed distributions along environmental gradients rather than from a sing le chemical 411 
+variable or laboratory endpoint (Hering et al., 2004; Rosenberg and Resh, 1993). It also builds 412 
+on the saprobic valency concept and its later adaptations, where taxa are characterized by both 413 
+their position along an environmental gradient and their strength of  indication within that 414 
+gradient (Sládeček, 1967; Yoon et al., 1992; Zelinka and Marvan, 1961). 415 
+Although KBSI shares a weighted -indicator structure with the Korean BMI  (Kong et 416 
+al., 2018) and conventional saprobic indices, the indices differ in their target environmental  417 
+gradients and application domains. BMI is used primarily to assess the general ecological 418 
+condition of Korean streams, whereas KBSI was derived from depositional sediment habitats 419 
+in both lotic and lentic systems. Similarly, conventional saprobic values p rimarily represent 420 
+taxon distributions along gradients of organic pollution and oxygen conditions, whereas KBSI 421 
+tolerance values were independently derived along a multivariate sediment-condition gradient 422 
+integrating TAN, A VS, TOC, relative metal contamination, and mud fraction. Correspondence 423 
+among taxon classifications may therefore reflect shared responses to organic enrichment and 424 
+oxygen depletion, but KBSI tolerance values should not be interpreted as conventional saprobic 425 
+values. 426 
+Tolerance values represent the weighted average position of each taxon along the PC1 427 
+sediment-condition gradient. Lower values indicate taxa whose occurrences were concentrated 428 
+in lower PC1 classes, whereas higher values indicate taxa whose occurrences were 429 
+concentrated in higher PC1 classes. Under the sign convention used in this study, higher PC1 430 
+scores represented stronger sediment -associated environmental stress, including greater 431 
+organic enrichment, reducing conditions, metal contamination, and mud accumulation. 432 
+Accordingly, tolerance values should be interpreted as field-derived occurrence positions along 433 
+the measured PC1 gradient, not as fixed physiological toxicity thresholds. 434 
+
+--- Page 56 ---
+
+The resulting values showed broad taxon -level variation. Taxa with low tolerance 435 
+values included Rhyacodrilus coccineus (t = 0.0), Chaetogaster limnaei (t = 0.0), Limnodrilus 436 
+claparedeianus (t = 0.7), and Chaetogaster diaphanus  (t = 1.9), whereas taxa with higher 437 
+tolerance values included Limnodrilus udekemianus (t = 7.3) and Branchiodrilus hortensis (t = 438 
+7.1). These differences are consistent with the general observation that benthic 439 
+macroinvertebrate assemblages vary along gradients of organic enrichment, oxygen depletion, 440 
+sediment condition, and habitat disturbance (Townsend et al., 2008; V on Bertrab et al., 2013). 441 
+However, the values should not be over -interpreted as universal taxon traits beca use field 442 
+distributions can also reflect habitat structure, flow regime, sampling depth, and regional 443 
+species pools. 444 
+Indicator weights describe a different property from tolerance values. A high indicator 445 
+weight means that a taxon ’s occurrences were concen trated within a restricted portion of the 446 
+PC1 gradient, whereas a low weight indicates a broader distribution across classes. Thus, 447 
+indicator weight represents occurrence specificity rather than sensitivity or tolerance itself. 448 
+This distinction follows the  weighted-indicator logic of saprobic and Korean benthic 449 
+macroinvertebrate indices, where community-level scores combine taxon position, abundance 450 
+or occurrence, and indicator strength (Zelinka & Marvan, 1961; Yoon et al., 1992; Kong & 451 
+Kim, 2016; Kim et al., 2019). 452 
+This distinction also resolves the issue of taxa with tolerance values of 0.0. In the final 453 
+table, Rhyacodrilus coccineus  and Chaetogaster limnaei  had tolerance values of 0.0 and 454 
+indicator weights of 5, because their occurrences were concentrated  in the lowest PC1 class. 455 
+Their high indicator weights therefore reflect narrow occurrence specificity, not an automatic 456 
+assignment based on sensitivity. Conversely, taxa with intermediate or high tolerance values 457 
+may receive low weights if they are broadl y distributed across PC1 classes. This treatment 458 
+
+--- Page 57 ---
+
+prevents tolerance value and indicator weight from being conflated into a single sensitivity 459 
+metric. 460 
+Overall, Table 3 should be interpreted as a field -derived indicator table for sediment -461 
+associated ecologic al condition in the sampled Korean freshwater systems. The table 462 
+summarizes how selected taxa were distributed along the measured PC1 gradient, but it does 463 
+not imply that KBSI fully isolates sediment effects from water -column conditions or habitat 464 
+context. This cautious interpretation is consistent with macroinvertebrate bioassessment 465 
+frameworks, which recognize that benthic taxa integrate multiple stressors and habitat -scale 466 
+processes rather than responding to a single environmental factor alone (Birk et al., 2012; 467 
+Hering et al., 2004; Rosenberg and Resh, 1993) . The use of taxon -specific tolerance values 468 
+requires standardized identification at the lowest practicable taxonomic level and may limit 469 
+routine application where specialist taxonomic expertise is unavailable. Future operational 470 
+evaluation should determ ine whether selected taxa can be aggregated to higher taxonomic 471 
+levels without materially reducing the discriminatory performance of KBSI. 472 
+ 473 
+3.4. Relationship between KBSI and sediment environmental variables 474 
+Using site -level annual mean values for the 80 monitoring sites, KBSI showed 475 
+consistent negative relationships with the five sediment environmental variables used to define 476 
+the PC1 sediment-condition gradient (Fig. 4). KBSI decreased with increasing porewater TAN, 477 
+A VS, TOC, Metals Tier II Index, and mu d fraction, and all relationships were statistically 478 
+significant. At the site level, the correlation coefficients were −0.57 for TAN, −0.60 for A VS, 479 
+−0.65 for TOC, −0.64 for the Metals Tier II Index, and −0.51 for mud fraction.  Thus, the 480 
+strongest associations were observed for TOC and Metals Tier II Index, followed by A VS, TAN, 481 
+and mud fraction. These results indicate that lower KBSI values were associated with 482 
+
+--- Page 58 ---
+
+depositional sediments characterized by greater organic matter content, greater relative 483 
+sediment-bound metal contamination, stronger reducing conditions, higher porewater nitrogen 484 
+enrichment, and greater fine-particle accumulation. 485 
+The negative relationship between KBSI and TOC suggests that the index responded 486 
+to organic matter accumulation in surf ace sediments. Organic matter enrichment can increase 487 
+microbial oxygen demand and promote low-oxygen or reducing conditions in benthic habitats, 488 
+thereby affecting sediment-dwelling fauna and benthic community composition (Eggleton and 489 
+Thomas, 2004; Rosenberg et al., 2001) . TOC can also interact with redox condition and 490 
+contaminant binding, so its relationship with KBSI should be interpreted as part of a broader 491 
+sediment biogeochemical gradient rather than as an isolated single-stressor effect (Zhang et al., 492 
+2014). 493 
+KBSI also decreased with incre asing TAN. In this study, TAN was interpreted as a 494 
+porewater indicator of nitrogenous organic enrichment rather than as a stand -alone toxicant 495 
+gradient. Ammonia and other inorganic nitrogen forms can affect aquatic organisms, but their 496 
+effects depend on ch emical speciation, pH, temperature, oxygen condition, and exchange 497 
+between porewater and overlying water (Camargo and Alonso, 2006; U.S. EPA, 2013) . 498 
+Therefore, the KBSI –TAN relationship is best interpreted as a field -level association with 499 
+nitrogenous enrichment and porewater condition within depositional sediments. 500 
+The negative relationship between KBSI and A VS indicates that lower index values 501 
+were associated with more reduced sediment conditions. A VS is important in sediment 502 
+assessment because sulfide-rich conditions reflect reducing environments and can modify both 503 
+porewater chemistry and metal partitioning (Di Toro et al., 1992) . However, A VS should not 504 
+be interpreted simply as a direct stressor with a single directional effect, because sulfides can 505 
+bind divalent metals and reduce their bioavailability under some geochemical conditions (Di 506 
+
+--- Page 59 ---
+
+Toro et al., 1992; Zhang et al., 2014) . Accordingly, the KBSI –A VS relationship should be 507 
+interpreted as a biological response associated with reduced, organic -rich depositional 508 
+conditions rather than as direct evidence of sulfide toxicity. 509 
+KBSI decreased with increasing Metals Tier II Index, suggesting that assemblages with 510 
+lower KBSI values tended to occur where relative sediment -bound metal contamination was 511 
+higher. Sediments can act as both sinks and secondary sources of metals, and metal mobility 512 
+and bioavailability are influenced by particle size, organic matter, Fe –Mn oxides, A VS, pH, 513 
+redox condition, and biological activity (Eggleton and Thomas, 2004; Förstner and Wittmann, 514 
+1981). Therefore, the relationship between KBSI and the Metals Tier II Index should be 515 
+interpreted as a field -level association between benthic assemblage condition and relative 516 
+sediment-bound metal contamination, not as a direct measurement of metal toxicity.  This 517 
+distinction is important because total or guideline -normalized metal concentrations do not 518 
+necessarily represent the fraction that is bioavailable to benthic organisms (Di Toro et al., 1992; 519 
+Zhang et al., 2014). 520 
+KBSI also showed a statistically significant but moderate negative relationship with 521 
+mud fraction, indicating a general tendency for lower KBSI values to occur in depositional 522 
+sediments with a greater silt–clay proportion. However, mud fraction alone accounted for only 523 
+a limited proportion of the variation in KBSI and should not be interpreted as the dominant 524 
+determinant of index values. Fine sediments can alter benthic habitats by reducing interstitial 525 
+flow, filling substrate spaces, changing oxygen ex change, and increasing the retention of 526 
+organic matter and particle -reactive contaminants (V on Bertrab et al., 2013; Wood and 527 
+Armitage, 1997). Fine-sediment deposition can also influence macroinvertebrate assemblage 528 
+composition and interact with other stressors such as organic enrichment and water -quality 529 
+degradation (Doretto et al., 2018; Extence et al., 2010) . Nevertheless, mud fraction is not a 530 
+
+--- Page 60 ---
+
+chemical contaminant. It can reflect natural depositional and hydromorphological processes as 531 
+well as anthropogenic changes in flow regulation, sediment supply, land use, or channel 532 
+modification (Wharton et al., 2023; Wood and Armitage, 1997). 533 
+Overall, these relationships support the internal consistency of KBSI with the sediment 534 
+variables used to define the PC1 gradient. They indicate that KBSI varied consistently along 535 
+field gradients involving organic enrichment, reducing conditions, relative sediment -bound 536 
+metal contamination, and fine -particle deposition. However, these associations do not 537 
+demonstrate that KBSI isolates sediment effects from co-varying water-column conditions or 538 
+habitat characteristics (Birk et al., 2012; Feld and Hering, 2007; Townsend et al., 2008). 539 
+ 540 
+3.5. Relationship between PC1 score and KBSI 541 
+Based on site -level annual mean values for the 80 monitoring sites, KBSI showed a 542 
+strong negative relationship with the PCA -derived PC1 sediment-condition gradient (Fig. 5).  543 
+Because PC1 was derived from mutually correlated sediment variables, including TAN, A VS, 544 
+TOC, Metals Tier II Index, and mud fraction, it summarized the dominant field gradient 545 
+represented by the measured sediment variables. Ordination -based approaches are commonly 546 
+used in aquatic ecology to extract synthetic environmental gradients and relate them to 547 
+biological assemblage patterns (ter Braak and Verdonschot, 1995). Similar gradient-based logic 548 
+has also been applied in macroinvertebrate index development, where PCA of abiotic variables 549 
+was used to define a disturbance gradient against which biological condition was evaluated 550 
+(Blocksom and Johnson, 2009). 551 
+KBSI decreased as PC1 scores increased. Under the sign convention used in this study, 552 
+PC1 scores represented stronger sediment -associated environmental stress, including 553 
+
+--- Page 61 ---
+
+nitrogenous enrichment, reducing conditions, organic matter accumulation, relative sediment-554 
+bound metal contamination, and mud deposition.  The negative PC1 –KBSI relationship 555 
+therefore indicates that the final community-level index retained the intended directionality of 556 
+the PC1 gradient after taxon -specific tolerance values and indicator weights were integrated 557 
+across assemblages. 558 
+The PC1–KBSI relationship remained significant after excluding four sites outside the 559 
+95% prediction interval in the site-level annual mean analysis. This trimming step was not used 560 
+to redefine KBSI or to exclude sites from the index framework. Rather, it was used to examine 561 
+whether the PC1 –KBSI relationship was driven by a small number of extreme observations. 562 
+After trimming, the remaining 76 sites still showed a clear negative relationship, indicating that 563 
+the association between KBSI and PC1 was not dependent only on outliers. This interpretation 564 
+is consistent with ecological assessment studies that emphasize the need to consider metric 565 
+uncertainty a nd site -specific variability when detecting biological responses along 566 
+environmental gradients (Johnson et al., 2006). 567 
+The PC1 –KBSI relationship complements the relationships between KBSI and 568 
+individual sediment variables described in Section 3.4. Individual variables describe specific 569 
+sediment attributes, whereas PC1 summarizes their combined field covariation. PC A-based 570 
+composite approaches can reduce correlated environmental variables into interpretable 571 
+summary gradients; however, such gradients should be interpreted as integrated field 572 
+conditions rather than as direct causal mechanisms  (Praus, 2019). Therefore, the PC1 –KBSI 573 
+relationship supports the internal coherence of KBSI with the sediment-condition gradient used 574 
+for its development.  However, this result should not be interpreted as external validation of 575 
+KBSI. Because PC1 was also used to derive the taxon -specific tolerance values and indicator 576 
+weights, the relationship between PC1 and KBSI represents an internal consistency check 577 
+
+--- Page 62 ---
+
+rather than an independent validation test.  578 
+ 579 
+3.6. Observed–calculated KBSI and internal agreement 580 
+Observed KBSI values showed a positive relationship with calculated KBSI values 581 
+(Fig. 6). After excluding four sites that fell outside the 95% prediction interval in the preceding 582 
+site-level PC1 –KBSI analysis, the remaining 76 sites retained a clear observed –calculated 583 
+relationship. This result indicates that the fitted sediment-variable model reproduced the overall 584 
+variation in site-level KBSI within the development dataset. 585 
+Because the calculated values were derived within the same sediment -variable and 586 
+index-development framework, the observed–calculated relationship should be interpreted as 587 
+an internal agreement check rather than as evidence of predictive performance or external 588 
+validation. Nevertheless, the agreement supports the internal coherence of KBSI as a biological 589 
+indicator associated with the field-derived sediment-condition gradient. KBSI should therefore 590 
+be interpreted together with sediment chemistry and habitat information, rather than as a stand-591 
+alone measure of sediment contamination or toxicity. 592 
+ 593 
+3.7. Limitations and future validation 594 
+Water-column variables, including dissolved oxygen, conductivity, nutrients, and 595 
+temperature, were not measured consistently and concurrently across all site -survey sample 596 
+units. Standardized hydromorphological and habitat variables were also unav ailable for the 597 
+complete dataset. Consequently, the independent and shared contributions of sediment 598 
+condition, water -column quality, and habitat setting could not be separated statistically. 599 
+Because macroinvertebrate assemblages may respond non -specifically to interacting 600 
+
+--- Page 63 ---
+
+environmental stressors, the observed biological response along PC1 does not by itself isolate 601 
+causal sediment effects from co-varying water-column or habitat conditions (Heß et al., 2024). 602 
+KBSI should therefore be interpreted as an integrated biological response associated with 603 
+sediment conditions under field settings rather than as a sediment-specific measure of toxicity. 604 
+Future studies should incorporate co -located water -column and hydromorphological 605 
+measurements to quantify their relative contributions. 606 
+The sampling framework was specifically designed for depositional sediment habitats 607 
+in which fine particles and associated organic or reduced materials accumulate. Accordingly, 608 
+the applicability of KBSI to coarse riffle, gravel -, or boulder -dominated habitats was not 609 
+evaluated and should not be assumed. Biological sam ples were collected to a depth of 20 cm 610 
+to include deeper-burrowing taxa, whereas sediment physicochemical variables were measured 611 
+in the upper 0–7 cm layer representing the biologically active surface sediment. Further 612 
+validation is needed to determine whether KBSI responses remain consistent across contrasting 613 
+depositional environments and waterbody types. 614 
+The same monitoring dataset was used to derive taxon -specific tolerance values and 615 
+indicator weights and to evaluate the relationships of KBSI with sed iment variables and the 616 
+PC1 gradient. Consequently, the reported relationships represent internal consistency within 617 
+the index-development dataset rather than independent validation, and their apparent strength 618 
+may be optimistic. No geographically or tempo rally independent dataset collected using the 619 
+same sampling and taxonomic protocols was available for external validation. Seasonal effects 620 
+were also not evaluated separately because the repeated surveys were not designed as a 621 
+balanced seasonal experiment.  Independent validation using additional sites, temporally 622 
+separate surveys, and seasonally balanced monitoring data is therefore needed to evaluate the 623 
+predictive accuracy, temporal stability, and transferability of KBSI. 624 
+
+--- Page 64 ---
+
+Overall, KBSI provides a field -based biological indicator of sediment -associated 625 
+ecological condition in Korean freshwater systems by integrating taxon -specific tolerance 626 
+values, indicator weights, and community composition along a field-derived sediment gradient. 627 
+Nevertheless, it should be interpreted together with sediment chemistry and habitat information 628 
+rather than as a stand-alone measure of sediment contamination or toxicity. 629 
+ 630 
+4. Conclusions 631 
+This study developed the Korean Benthic Macroinvertebrate Sediment Index (KBSI) 632 
+as a field-based biological indicator of sediment -associated ecological condition in Korean 633 
+freshwater systems. The index was derived from a PCA -based sediment gradient integrating 634 
+porewater TAN, A VS, TOC, the Metals Tier II Index, and mud fraction. Occurrence patterns of 635 
+137 indicator taxa across nine PC1 class intervals were used to derive taxon-specific tolerance 636 
+values and indicator weights. 637 
+KBSI decreased consistently with increasing TAN, A VS, TOC, relative sediment -638 
+bound metal contamination, mud fraction, and the integrated PC1 gradient. These relationships 639 
+demonstrate that KBSI retained the intended biological directionality of the sediment-condition 640 
+gradient within the development dataset. The observed –calculated relationship further 641 
+supported internal ag reement of the index formulation, although it did not constitute 642 
+independent validation. 643 
+KBSI is intended for biological assessment of depositional sediment habitats and 644 
+should not be interpreted as an independent chemical sediment -quality standard or dire ct 645 
+toxicological endpoint. Its results should be considered together with sediment 646 
+physicochemical and habitat information. Independent validation across additional sites, 647 
+
+--- Page 65 ---
+
+survey periods, and contrasting depositional environments is required to establish i ts broader 648 
+robustness and transferability. 649 
+  650 
+
+--- Page 66 ---
+
+CRediT authorship contribution statement 651 
+Jeaha Song:  Conceptualization, Methodology, Visualization, Data validation and curation, 652 
+formal analysis, Writing-original draft preparation, Writing -review and editing. Chanyoung 653 
+Jeong: Conceptualization, Methodology, Writing-review and editing. Ihn-Sil Kwak: Writing-654 
+review and editing.  Dongsoo Kong:  Conceptualization, Methodology, Writing -review and 655 
+editing, Project administration.   656 
+ 657 
+Acknowledgments 658 
+This research was supported by the Korea Environment Industry and Technology Institute 659 
+(KEITI) through the Aquatic Ecosystem Conserva tion Research Program funded by the 660 
+Ministry of Environment (MOE), Republic of Korea (grant No. 2021003050001 and 661 
+2022003050006). Additional support was provided by the Kyonggi University Graduate 662 
+Research Assistantship (2026). 663 
+  664 
+
+--- Page 67 ---
+
+References 665 
+Abdi, H., Williams, L.J., 2010. Principal component analysis. WIREs Computational Statistics, 2(4): 433–459. 666 
+https://doi.org/10.1002/wics.101 667 
+AFNOR, 2002. NF T90 -390: Qualité de l ’eau—Détermination de l ’indice oligochète de bioindication des 668 
+sédiments (IOBS). Association Française de Normalisation, Saint-Denis, France.  669 
+AFNOR, 2016. NF T90 -393: Qualité de l ’eau—Détermination de l ’indice oligochète de bioindication des 670 
+sédiments (IOBS) — Mise à jour. Association Française de Normalisation, Saint-Denis, France.  671 
+Birk, S., Bonne, W., Borja, A., Brucet, S., Courrat, A., P oikane, S., Solimini, A., van de Bund, W., Zampoukas, 672 
+N., Hering, D., 2012. Three hundred ways to assess Europe's surface waters: An almost complete overview 673 
+of biological methods to implement the Water Framework Directive. Ecological Indicators, 18: 31–41. 674 
+https://doi.org/10.1016/j.ecolind.2011.10.009 675 
+Blocksom, K.A., Johnson, B.R., 2009. Development of a regional macroinvertebrate index for large river 676 
+bioassessment. Ecological Indicators, 9(2): 313–328. https://doi.org/10.1016/j.ecolind.2008.05.005 677 
+Borja, A., Franco, J., Pérez, V ., 2000. A Marine Biotic Index to Establish the Ecological Quality of Soft-Bottom 678 
+Benthos Within European Estuarine and Coastal Environments. Marine Pollution Bulletin, 40(12): 1100–679 
+1114. https://doi.org/10.1016/S0025-326X(00)00061-8 680 
+Bylak, A., Kukuła, K., 2022. Impact of fine-grained sediment on mountain stream macroinvertebrate communities: 681 
+Forestry activities and beaver -induced sediment management. Science of The  Total Environment, 832: 682 
+155079. https://doi.org/10.1016/j.scitotenv.2022.155079 683 
+Camargo, J.A., Alonso, Á., 2006. Ecological and toxicological effects of inorganic nitrogen pollution in aquati c 684 
+ecosystems: A global assessment. Environment International, 32(6): 831–849. 685 
+https://doi.org/10.1016/j.envint.2006.05.002 686 
+Chapman, P.M., 1990. The sediment quality triad approach to determining pollution-induced degradation. Science 687 
+of The Total Environment, 97-98: 815–825. https://doi.org/10.1016/0048-9697(90)90277-2 688 
+Cummins, K., Merritt, R., 1996. An Introduction to The Aquatic Insects of North America. The Journal of Animal 689 
+Ecology, 50. https://doi.org/10.2307/1467288 690 
+Di Toro, D.M., Mahony, J.D., Hansen, D.J., Scott, K.J., Carlson, A.R., Ankley, G.T., 1992. Acid volatile sulfide 691 
+predicts the acute toxicity of cadmium and nickel in sediments. Environmental Science & Technology, 692 
+26(1): 96–101. https://doi.org/10.1021/es00025a009 693 
+Doretto, A., Piano, E., Bona, F., Fenoglio, S., 2018. How to assess the impact of fine sediments on the 694 
+macroinvertebrate communities of alpine streams? A selection of the best metrics. Ecological Indicators, 695 
+84: 60–69. https://doi.org/10.1016/j.ecolind.2017.08.041 696 
+Eggleton, J., Thomas, K.V ., 2004. A review of factors affecting the release and bioavailability of contaminants 697 
+during sediment disturbance events. Environment International, 30(7): 973–980. 698 
+https://doi.org/10.1016/j.envint.2004.03.001 699 
+El-Sharkawy, M., Alotaibi, M.O., Li, J., Du, D., Mahmoud, E., 2025. Heavy Metal Pollution in Coastal 700 
+Environments: Ecological Implications and Management Strategies: A Review. Sustainability, 17(2). 701 
+https://doi.org/10.3390/su17020701 702 
+Extence, C., Chadd, R., England, J., Dunbar, M.J., Wood, P., Taylor, E.D., 2010. The Assessment of Fine Sediment 703 
+Accumulation in Rivers Using Macro -Invertebrate Community Resp onse. River Research and 704 
+Applications, 29. https://doi.org/10.1002/rra.1569 705 
+
+--- Page 68 ---
+
+Feld, C.K., Hering, D., 2007. Community structure or function: effects of environmental stress on benthic 706 
+macroinvertebrates at different spatial scales. Freshwater Biology, 52(7): 1380–1399. 707 
+https://doi.org/10.1111/j.1365-2427.2007.01749.x 708 
+Förstner, P.D.U., Wittmann, D.G.T.W., 1981. Metal Pollution in the Aquatic Environment. Springer. 709 
+https://doi.org/10.1007/978-3-642-69385-4 710 
+Hering, D., Moog, O., Sandin, L., Verdonschot, P.F.M., 2004. Overview and application of the AQEM assessment 711 
+system. Hydrobiologia, 516(1): 1–20. https://doi.org/10.1023/B:HYDR.0000025255.70009.a5 712 
+Heß, S., Hof, D., Oetken, M., Sundermann, A., 2024. Macroinvertebrate communities respond strongly but non -713 
+specifically to a toxicity gradient derived by effect-based methods. Environmental Pollution, 356: 124330. 714 
+https://doi.org/10.1016/j.envpol.2024.124330 715 
+Hiki, K., Fischer, F.C., Nishimori, T., Endo, S., Watanabe, H., Yamamoto, H., 2023. Influence of water exchange 716 
+rates on toxicity and bioaccumulation of hydrophobic organic chemicals in sedime nt toxicity tests. 717 
+Environmental Science: Processes & Impacts, 25(3): 609–620. https://doi.org/10.1039/d2em00462c 718 
+Johnson, R.K., Hering, D., Furse, M.T., Clarke, R.T., 2006. Detection of ecological change using multiple 719 
+organism groups: metrics and uncertainty. Hydrobiologia, 566(1): 115–137. 720 
+https://doi.org/10.1007/s10750-006-0101-8 721 
+Jolliffe, I.T., Cadima, J., 2016. Principal component analysis: a r eview and recent developments. Philosophical 722 
+Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences, 374(2065): 723 
+20150202. https://doi.org/10.1098/rsta.2015.0202 724 
+Jun, Y .-C., Won, D.-H., Lee, S. -H., Kong, D. -S., Hwang, S. -J., 2012. A Multimetric Benthic Macroinvertebrate 725 
+Index for the Assessment of Stream Biotic Integrity in Korea, International Journal of Environmental 726 
+Research and Public Health, 3599–3628. https://doi.org/10.3390/ijerph9103599 727 
+Kawai, T., Tanida, K., 2005. Aquatic Insects of Japan: Manual with Keys and Illustrations. Tokai University, Japan, 728 
+1–1342.  729 
+Kim, P.J., Kim, A.R., Kwon, Y ., Min, J.K., Huh, I.A., Ko ng, D., 2018. Comparative Study on the Sampling 730 
+Methods of Benthic Macroinvertebrates in the Fine Sediments of Freshwater. Journal of Korean Society 731 
+on Water Environment, 34(1): 84–95. https://doi.org/10.15681/KSWE.2017.34.1.84 732 
+Kim, P.J., Lee, J.H., Huh, I.A., Kong, D., 2019. Development of benthic macroinvertebrates sediment index (BSI) 733 
+for bioassessment of freshwater sediment. International Journal of Sediment Research, 34(4): 368–378. 734 
+https://doi.org/10.1016/j.ijsrc.2018.10.014 735 
+Kong, D., Kim, J. -Y ., 2016. Development of Benthic Macroinvertebrates Streambed Index (BMSI) for 736 
+Bioassessment of Stream Physical Habitat. Journal of Korean Societ y on Water Environment, 32: 1–14. 737 
+https://doi.org/10.15681/KSWE.2018.34.2.183 738 
+Kong, D., Son, S.-H., Hwang, S.-J., Won, D.H., Kim, M.C., Park, J.H., Kim, J.S., 2018. Development of Benthic 739 
+Macroinvertebrates Index (BMI) for Biological Assessment on Stream Environment. Journal of Korean 740 
+Society on Water Environment, 34(2): 183–201. https://doi.org/10.15681/KSWE.2018.34.2.183 741 
+Kwak, I.S., 2015. Introduction to the Chironomidae as a water pollution indicator. Chonnam National University 742 
+Press, 13–156.  743 
+Legendre, P., Legendre, L., 2012. Numerical Ecology. Developments in Environmental Modelling. Elsevier 744 
+Science.  745 
+Lobo, J., Shokralla, S., Costa, M.H., Hajibabaei, M., Costa, F.O., 2017. DNA metabarcoding for high-throughput 746 
+monitoring of estuarine macrobenthic communities. Scientific Reports, 7(1): 15618. 747 
+https://doi.org/10.1038/s41598-017-15823-6 748 
+
+--- Page 69 ---
+
+Long, E.R., Chapman, P.M., 1985. A Sediment Quality Triad: Measures of sediment contamination, toxicity and 749 
+infaunal community composition in Puget Sound. Marine Pollution Bulletin, 16(10): 405–415. 750 
+https://doi.org/10.1016/0025-326X(85)90290-5 751 
+Mavromati, E., Kemitzoglou, D., Tsiaoussi, V ., Lazaridou, M., 2021. A new WFD —compliant littoral 752 
+macroinvertebrate index for monitoring and assessment of Mediterranean lakes (HeLLBI). Environmental 753 
+Monitoring and Assessment, 193(11): 745. https://doi.org/10.1007/s10661-021-09493-1 754 
+NIER, 2022. River and Lake Sediment Evaluation Standards, Notification No. 2022 -830. National Institute of 755 
+Environmental Research, Ministry of Environment, Republic of Korea.  756 
+Park, S.Y ., Lee, S.H., Kim, Y .J., 2016. A taxonomic study on the Korean freshwat er oligochaetes (Annelida: 757 
+Clitellata). Korean Journal of Limnology, 49(1): 35–44.  758 
+Peckarsky, B.L., Fraissinet, P.R., Penton, M.A., Conklin, D.J., 1990. Freshwater Macroinvertebrates of 759 
+Northeastern North America. Cornell University Press.  760 
+Praus, P., 201 9. Principal Component Weighted Index for Wastewater Quality Monitoring. Water, 11(11). 761 
+10.3390/w11112376 762 
+Quinn, G.P., Keough, M.J., 2002. Experimental Design and Data Analysis for Biologists. Cambridge University 763 
+Press, Cambridge. DOI: 10.1017/CBO9780511806384 764 
+Relyea, C., Minshall, G., Danehy, R., 2012. Development and Validation of an Aquatic Fine Sediment Biotic 765 
+Index. Environmental management, 49: 242–252. https://doi.org/10.1007/s00267-011-9784-3 766 
+Rosenberg, D.M., Resh, V .H., 1993. Freshwater biomonitoring and benthic macroinvertebrates. Chapman & Hall.  767 
+Rosenberg, R., Nilsson, H.C., Diaz, R.J., 2001. Response of Benthic Fauna and Changing Sediment Redox 768 
+Profiles over a Hypoxic Gradient. Estuarine , Coastal and Shelf Science, 53(3): 343–350. 769 
+https://doi.org/10.1006/ecss.2001.0810 770 
+Simpson, S., Batley, G., Chariton, A., 2013. Revision of the ANZECC/ARMCANZ Sediment Quality Guidelines.  771 
+Sládeček, V., 1967. The ecological and physiological trends in the saprobiology. Hydrobiologia, 30(3): 513–526. 772 
+https://doi.org/10.1007/BF00964030 773 
+Smith, R.W., Bergen, M., Weisberg, S.B., Cadien, D., Dalkey, A., Montagne, D., Stull, J.K., Velarde, R.G., 2001. 774 
+BENTHIC RESPONSE INDEX FOR ASSESSING INFAUNAL COMMUNITIES ON THE SOUTHERN 775 
+CALIFORNIA MAINLAND SHELF. Ecological Applications, 11(4): 1073–1087. 776 
+https://doi.org/10.1890/1051-0761(2001)011[1073:BRIFAI]2.0.CO;2 777 
+Song, J., Kwak, I.-S., Kong, D., 2025. Sampling Method for Community Structure of Benthic Macroinvertebrates 778 
+in Freshwater Sediment. Journal of Korean Society on Water Environment, 41(5): 403–417. 779 
+https://doi.org/10.15681/KSWE.2025.41.5.403 780 
+Sturges, H.A., 1926. The Choice of a Class Interval. Journal of the American Statistical Association, 21(153): 65–781 
+66. https://doi.org/10.1080/01621459.1926.10502161 782 
+Sudarso, J., Ibrahim, A., Sugiarti, Aziz, C.H., Hermana, I.S., Riani, E., Mayaningtyas, P., Yamin, M., Zamroni, 783 
+M., Frisca, A., Utami, R.R., 2026. Performance of the Cumulative Biotic Index (CBI) and other biotic 784 
+indices in assessing ecolo gical health of the Upper Citarum River, Indonesia. Water Cycle, 7: 83–98. 785 
+https://doi.org/10.1016/j.watcyc.2025.06.007 786 
+ter Braak, C.J.F., Verdonschot, P.F.M., 1995. Canonical correspondence analysis and related multivariate methods 787 
+in aquatic ecology. Aquatic Sciences, 57(3): 255–289. https://doi.org/10.1007/BF00877430 788 
+Townsend, C.R., Uhlmann, S.S., Matthaei, C.D., 2008. Individual and combined responses of stream ecosystems 789 
+
+--- Page 70 ---
+
+to multiple stressors. Journal of Applied Ecology, 45(6): 1810–1819. https://doi.org/10.1111/j.1365-790 
+2664.2008.01548.x 791 
+U.S. EPA, 2013. Aquatic Life Ambient Water Quality Criteria for Ammonia—Freshwater 2013. EPA 822-R-13-792 
+001. United States Environmental Protection Agency.  793 
+U.S.EPA, 2003. Procedures for the Derivation of Equilibrium Partitioning Sediment Benchmarks (ESBs) for the 794 
+Protection of Benthic Organisms: PAH Mixtures, U.S. Environmental Protection Agency, Washington, DC.  795 
+V on Bertrab, M.G., Krein, A., Stendera, S., Thielen, F., Hering, D., 2013. Is fine sediment deposition a main driver 796 
+for the composition of benthic macroinvertebrate assemblages? Ecological Indicators, 24: 589–598. 797 
+https://doi.org/10.1016/j.ecolind.2012.08.001 798 
+Weibull, W., 1951. A Statistical Distribution Function of Wide Applicability. Journal of Applied Mechanics, 18(3): 799 
+293–297. https://doi.org/10.1115/1.4010337 800 
+Wharton, G., Phillips, J., Legout, C., Grabowski, R.C., 2023. Preface: understanding fine sediment dynamics in 801 
+aquatic systems. Journal of Soils and Sediments, 23(10): 3567–3573. https://doi.org/10.1007/s11368-023-802 
+03655-z 803 
+Wood, P.J., Armitage, P.D., 1997. Biological Effects of Fine Sediment in the Lotic Environment. Environmental 804 
+management, 21(2): 203–217. https://doi.org/10.1007/s002679900019 805 
+Yoon, I.B., 1988. Illustrated Encyclopedia of Fauna and Flora of Korea, Aquatic Insect, 30. A Staste Textbook, 806 
+Seoul, 1–840.  807 
+Yoon, I.B., Kong, D., Ryu, J.K., 1992. Studies  on the Biological Evaluation of Water Quality by Benthic 808 
+Macroinvertebrates (1) - Saprobic Valency and Indicative Value. Korean Journal of Environmental Biology, 809 
+10: 24–39.  810 
+Zelinka, M., Marvan, P., 1961. Zur Präzisierung der biologischen Klassifikation der Reinheit fließender Gewässer. 811 
+Archiv fur Hydrobiologie, 57: 389–407.  812 
+Zhang, C., Yu, Z.g., Zeng, G.m., Jiang, M., Yang, Z.z., Cui, F., Zhu, M.y., Shen, L.q., Hu, L., 2014. Effects of 813 
+sediment geochemical properties on heavy metal bioavailability. Environment International, 73: 270–281. 814 
+https://doi.org/10.1016/j.envint.2014.08.010 815 
+Zhou, Z., Grandjean, T.J., de Smit, J., van Belzen, J., Fivash, G.S., Walles, B., Beauchard, O., van Dalen, J., Blok, 816 
+D.B., van Ijzerloo, L., Ysebaert, T., Bouma, T.J., 2024. Sediment dynamics shape macrofauna mobility 817 
+traits and abundance on tidal flats. Limnology and Oceanography, 69(10): 2278–2293. 818 
+https://doi.org/10.1002/lno.12669 819 
+ 820 
+
+--- Page 71 ---
+
+ 
+Figure 1. Distribution of the 80 freshwater sediment monitoring sites used for developing the Korean Benthic 
+Macroinvertebrate Sediment Index (KBSI) across major river basins in Korea. Site categories indicate broad 
+differences in waterbody type, surrounding land -use setting, and depositional sediment environment, rather than 
+reference or impairment classes.  
+Figure
+ Click here to access/download;Figure;ECOLIND-
+61476_Figure.docx
+
+--- Page 72 ---
+
+ 
+Figure 2. PCA biplots of sediment physicochemical variables. The left panel shows the PC1–PC2 ordination, and 
+the right panel shows the PC2–PC3 ordination. Environmental vectors represent porewater total ammonia nitrogen 
+(TAN), acid-volatile sulfides (AVS), total organic carbon (TOC), Metals Tier II Index, and mud fraction. PC1 
+explained 58.0% of the total variance and was used as the primary field -based sediment-condition gradient for 
+deriving taxon-specific tolerance values and indicator weights. Site symbols indicate descriptive waterbody types 
+and were not used as reference or impairment classes. 
+  
+
+
+--- Page 73 ---
+
+ 
+Figure 3. Probability distribution of PC1 scores for 309 sample units containing indicator taxa. The empirical 
+distribution of PC1 scores was fitted using a Weibull cumulative distribution function. Vertical dashed lines 
+indicate the nine class boundaries derived from equal cumulative -probability intervals. These PC1 classes were 
+used as empirical intervals of the sediment -condition gradient for deriving taxon -specific tolerance values and 
+indicator weights. 
+  
+
+
+--- Page 74 ---
+
+ 
+(a) 
+ 
+(b) 
+ 
+(c) 
+ 
+(d) 
+ 
+(e) 
+ 
+Figure 4. Relationships between KBSI and sediment environmental variables. Scatterplots show relationships 
+between KBSI and (a) porewater total ammonia nitrogen (TAN), (b) acid-volatile sulfides (AVS), (c) total organic 
+carbon (TOC), (d) Metals Tier II Index, and (e) mud fraction. Regression lines summarize field-level associations. 
+KBSI showed significant negative relationships with all five sediment variables.  
+
+
+--- Page 75 ---
+
+ 
+(a) 
+ 
+(b) 
+Figure 5. Relationship between PC1 score and KBSI. Scatterplots show the relationship between site-level annual 
+mean PC1 scores and KBSI values before trimming (a) and after trimming four sites outside the 95% prediction 
+interval (b). Higher PC1 scores indicate stronger sediment -associated environmental st ress. KBSI showed a 
+significant negative relationship with PC1 score, supporting the internal consistency of KBSI with the PCA -
+derived sediment-condition gradient. 
+  
+
+
+--- Page 76 ---
+
+ 
+Figure 6. Observed and calculated KBSI values. The scatterplot shows the relationship between observed KBSI 
+and calculated KBSI for 76 sites after excluding four sites outside the 95% prediction interval. The relationship 
+indicates internal agreement within the inde x-development framework and should not be interpreted as external 
+validation. 
+
+
+--- Page 77 ---
+
+Table 1. PCA loadings and explained variance of sediment physicochemical variables. 
+* TAN, total ammonia nitrogen; AVS, acid -volatile sulfides; TOC, total organic carbon. Mud fraction refers to 
+the silt–clay fraction and was treated as a physical depositional variable rather than a chemical contaminant.  
+  
+Variable PC1 PC2 PC3 
+TAN 0.66 0.03 0.00 
+A VS 0.69 −0.01 −0.06 
+TOC 0.86 0.08 −0.02 
+Metals Tier II Index 0.82 −0.01 −0.03 
+Mud fraction 0.76 −0.03 0.01 
+Variance explained (%) 58.0 17.2 10.8 
+Cumulative variance explained (%) 58.0 75.2 86.0 
+Eigenvalue 2.9 0.9 0.5 
+Table
+ Click here to access/download;Table;ECOLIND-
+61476_Table.docx
+
+--- Page 78 ---
+
+Table 2. PC1 class intervals and representative class values 
+Class No. Cumulative probability PC1 class interval Representative class value 
+1 1/9 < −2.277 −3.142 
+2 2/9 −2.277 to < −1.367 −1.822 
+3 3/9 −1.367 to < −0.730 −1.049 
+4 4/9 −0.730 to < −0.199 −0.465 
+5 5/9 −0.199 to < 0.288 0.045 
+6 6/9 0.288 to < 0.773 0.531 
+7 7/9 0.773 to < 1.301 1.037 
+8 8/9 1.301 to < 1.976 1.639 
+9 1 ≥ 1.976 3.559 
+*PC1 class intervals were derived from the Weibull cumulative distribution fitted to PC1 scores of the 309 sample 
+units containing selected indicator taxa. Representative class values were used to derive taxon -specific tolerance 
+values. 
+  
+
+--- Page 79 ---
+
+Table 3. Taxon-specific tolerance values and indicator weights. 
+No. Taxon Tolerance value (t) Indicator weight (g) 
+1 Anodonta woodiana 3 4 
+2 Corbicula fluminea 3.1 2 
+3 Musculium lacustre 3.9 4 
+4 Hediste sp. 6.5 2 
+5 Branchiura sowerbyi 5.1 1 
+6 Bothrioneurum vejdoskynum 3.7 1 
+7 Rhyacodrilus coccineus 0 5 
+8 Tubifex tubifex 4.6 1 
+9 Limnodrilus claparedeianus 0.7 4 
+10 Limnodrilus hoffmeisteri 4.9 1 
+11 Limnodrilus udekimineanus 7.3 5 
+12 Haplotaxis gordioides 3.8 1 
+13 Chaetogaster diaphanus 1.9 4 
+14 Chaetogaster limnaei 0 5 
+15 Branchiodrilus hortensis 7.1 3 
+16 Opidonais sp. 0 4 
+17 Amphichaeta asiatica 3.8 2 
+18 Haemonais waldvogeli 4.8 2 
+19 Nais variabilis 5.6 3 
+20 Nais communis 7.3 5 
+21 Slavina appendiculata 7.3 5 
+22 Stylaria fossularis 3.1 3 
+23 Pristina biserrata 0 5 
+24 Pristina longiseta 1.8 3 
+25 Henlea sp. 5.7 3 
+26 Mesenchytreanus sp. 6.9 2 
+27 Lumbriculus variegatus 3.3 1 
+28 Lamprotus orientalis 0.9 3 
+29 Eisenia koreana 4.2 1 
+30 Helobdella stagnalis 5.6 1 
+31 Erpobdella lineata 4.3 1 
+32 Erpobdella sp. 7.9 2 
+33 Cyprididae sp. 7.3 5 
+34 Gnorimosphaeroma sp. 4.6 5 
+35 Cyathura higoensis 7.9 4 
+36 Asellus sp. 6.4 2 
+37 Gammarus sp. 4.9 2 
+38 Jesogammarus sp. 10 5 
+39 Monocorophium sp. 9 5 
+40 Collembola sp. 4.2 2 
+
+--- Page 80 ---
+
+41 Baetis fuscatus 3.3 4 
+42 Cloeon dipterum 5.1 2 
+43 Labiobaetis atrebatinus 4.6 2 
+44 Procloeon maritimum 0 5 
+45 Procloeon pennulatum 3.3 2 
+46 Choroterpes altioculus 0.8 3 
+47 Potamanthus formosus 0 4 
+48 Rhoenanthus coreanus 0.2 3 
+49 Ephoron shigae 0 5 
+50 Ephemera orientalis 2.7 2 
+51 Serratella setigera 5.6 2 
+52 Caenis sp. 2.6 2 
+53 Psychoda sp. 4 4 
+54 Dixidae sp. 3.3 5 
+55 Ceratopogonidae sp. 4.3 2 
+56 Benthalia sp. 4.6 5 
+57 Chironomus circumdatus 0 5 
+58 Chironomus flaviplumus 5 1 
+59 Chironomus kiiensis 8.5 3 
+60 Chironomus nipponensis 4.5 2 
+61 Chironomus edwardsi 6.9 3 
+62 Chironomus sp. 6 2 
+63 Cladotanytarsus vanderwulpi 3.3 3 
+64 Cryptochironomus sp. 1.6 2 
+65 Demicryptochironomus sp. 1.7 3 
+66 Dicrotendipes nervosus 3.8 3 
+67 Dicrotendipes pelochloris 9 5 
+68 Dicrotendipes septemmaculatus 6.9 3 
+69 Dicrotendipes sp. 6.6 2 
+70 Glyptotendipes tokunagai 5.2 2 
+71 Harnischia japonica 4.9 3 
+72 Harnischiagumsanea 7.3 5 
+73 Harnischia sp. 6.2 2 
+74 Lipiniella moderata 4.5 2 
+75 Microchironomus tener 3.1 3 
+76 Microchironomus sp. 7.3 5 
+77 Microtendipes sp. 3.8 3 
+78 Nilothauma sp. 3.9 4 
+79 Parachironomus gracilior 1.7 5 
+80 Parachironomus arcuatus 7.4 3 
+81 Paratanytarsus inopertus 7.3 5 
+82 Paratanytarsus grimmii 7.9 4 
+83 Paratanytarsus sp. 4.6 5 
+
+--- Page 81 ---
+
+84 Paratendipes albimanus 2.2 2 
+85 Paratendipes sp. 0 4 
+86 Polypedilum asakawaense 6.6 2 
+87 Polypedilum pedestre 0 5 
+88 Polypedilum nubifer 1.3 3 
+89 Polypedilum decematoguttatum 4.6 5 
+90 Polypedilum masudai 4 2 
+91 Polypedilum cultellatum 3.8 2 
+92 Polypedilum nubeculosum 5.5 2 
+93 Polypedilum sp. 4.7 1 
+94 Stictochironomus sinsauensis 3 1 
+95 Stictochironomus sp. 4.8 3 
+96 Tanytarsus kiseogi 0.8 4 
+97 Tanytarsus takahashii 1.7 5 
+98 Tanytarsus tamagotoi 3.3 5 
+99 Tanytarsus tamakutibasi 2.3 4 
+100 Tanytarsus formosanus 10 5 
+101 Tanytarsus sp. 4.3 1 
+102 Potthastia sp. 4.6 5 
+103 Thienemanniella sp. 1.2 4 
+104 Brillia japonica 4.6 5 
+105 Corynoneura sp. 1.7 3 
+106 Cricotopus bicinctus 2.7 3 
+107 Cricotopus bimaculatus 0 4 
+108 Cricotopus sylvestris 5.8 1 
+109 Cricotopus triannulatus 2.3 4 
+110 Cricotopus sp. 4.3 1 
+111 Eukiefferiella sp. 0 4 
+112 Hydrobaenus kondoi 3.9 1 
+113 Hydrobaenus sp. 3.3 5 
+114 Limnophyes tamakitanaides 6 5 
+115 Orthocladius glabripennis 5.6 4 
+116 Orthocladius sp. 1.8 2 
+117 Paratrichocladius rufiventris 6.1 2 
+118 Propsilocerus akamusi 2.3 4 
+119 Rheocricotopus sp. 0 5 
+120 Ablabesmyia longistyla 8.3 3 
+121 Ablabesmyia monilis 3.7 2 
+122 Ablabesmyia prorasha 0.8 3 
+123 Ablabesmyia sp. 4.5 1 
+124 Conchapelopia sp. 3.4 1 
+125 Hayesomyia tripunctata 9 5 
+126 Procladius choreus 2.9 2 
+
+--- Page 82 ---
+
+127 Procladius nigriventris 10 5 
+128 Procladius sp. 5.1 1 
+129 Rheopelopia sp. 3.3 5 
+130 Tanypus punctipennis 9.3 3 
+131 Saetheria tylus 0 4 
+132 Cladopelma edwardsi 7 2 
+133 Cladopelma virescens 3.3 4 
+134 Chironomidae sp. 1.8 2 
+135 Syrphidae sp. 7.3 5 
+136 Ephydridae sp. 10 4 
+137 Ecnomus sp. 7.6 2 
+*Tolerance values represent the weighted average position of each taxon along the nine PC1 class intervals. 
+Indicator weights represent the concentration of each taxon ’s occurrence distribution along the PC1 gradient and 
+should not be interpreted as sensitivity values. 
+
+--- Page 83 ---
+
+Table 4. KBSI classification criteria for sediment-associated ecological condition 
+Class Ecological condition KBSI range 
+A High 70–100 
+B Good 60–<70 
+C Moderate 50–<60 
+D Poor 40–<50 
+E Bad 0–<40 
+*KBSI classes were defined as empirical biological assessment categories for sediment -associated ecological 
+condition. The classes  should not be interpreted as independent chemical sediment -quality standards or 
+toxicological thresholds. 
+
+--- Page 84 ---
+
+Declaration of interests 
+  
+☒ The authors declare that they have no known competing financial interests or personal relationships 
+that could have appeared to influence the work reported in this paper. 
+  
+☐ The authors declare the following financial interests/personal relationships which may be considered 
+as potential competing interests: 
+ 
+ 
+  
+  
+  
+ 
+Declaration of competing interests
